@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top"><img src="img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+      <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -53,3 +53,13 @@
   </div>
   {{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>
+<!-- {{ if .IsTranslated }}
+<h4>{{ i18n "translations" }}</h4>
+<ul>
+    {{ range .Translations }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+    </li>
+    {{ end}}
+</ul>
+{{ end }} -->

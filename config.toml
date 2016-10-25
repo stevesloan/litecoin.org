@@ -7,6 +7,10 @@ theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
+
+
+
+
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
@@ -271,3 +275,59 @@ googleAnalytics = ""
     [[params.footer.quicklinks]]
       text = "Terms of Use"
       link = "#"
+
+[Taxonomies]
+tag = "tags"
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[Languages]
+[Languages.en]
+weight = 1
+title = "English"
+
+[Languages.en.blackfriday]
+angledQuotes = false
+
+[Languages.fr]
+  weight = 2
+
+  title = "Litecoin - Monnaie électronique décentralisée et open source"
+  subtitle = "Based on Blockchain Technology"
+  buttonText = "Download"
+[Languages.fr.hero]
+  # To change the background image of the hero, replace 'header-bg.jpg' in
+  # the 'static/img' folder.
+  title = "Global Decentralized Currency"
+  subtitle = "Based on Blockchain Technology"
+  buttonText = "Download"
+
+[Languages.fr.Taxonomies]
+plaque = "plaques"
+
+[Languages.fr.navigation]
+brand = "litecoin"
+about = "About"
+
+[Languages.fr.services]
+title = "Litecoin, c'est quoi ?"
+subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paiements instantanés, avec des coûts proches de zéro à quiconque dans le monde. Litecoin est un réseau de paiement mondial open source, qui est entièrement décentralisé sans autorités centrale. Les utilisateurs peuvent mainteant contrôler leurs propres finances, securisées par un systeme basé entierement sur des mathématiques. Par rapport à Bitcoin, les transactions Litecoin sans plus rapides à confirmer et ont une efficacité de stockage accrue. De part son utilisation par l'industrie, le volume d'échange et de liquidité sur les marchés d'échange, Litecoin est un moyen de commerce complémentaire à Bitcoin, qui a fait ses preuves."
+
+[[Languages.fr.services.row]]
+
+[[Languages.fr.services.row.list]]
+  icon = "fa-shopping-cart"
+  title = "Community"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+[[Languages.fr.services.row.list]]
+  icon = "fa-laptop"
+  title = "Resources"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+[[Languages.fr.services.row.list]]
+  icon = "fa-lock"
+  title = "Wallet Encryption"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."

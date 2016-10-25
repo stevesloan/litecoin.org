@@ -2,21 +2,21 @@
 <section id="about">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+      <div class="col-lg-12 ">
+        <h2 class="section-heading text-center">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
         <p class="large text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</p>
       </div>
     </div>
     {{ range .Site.Params.services.row }}
-      <div class="row text-center">
+      <div class="row ">
         {{ range .list }}
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-circle fa-stack-2x text-primary "></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">{{ .title | markdownify }}</h4>
-            <p class="text-muted">{{ .description | markdownify }}</p>
+            <p class="text-muted text-left">{{ .description | markdownify }}</p>
           </div>
         {{ end }}
       </div>

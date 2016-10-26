@@ -1,0 +1,24 @@
+{
+  "name": "litecoin.org",
+  "version": "1.0.0",
+  "description": "hugo server --buildDrafts -w",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp sass && gulp sass:watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevesloan/litecoin.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevesloan/litecoin.org/issues"
+  },
+  "homepage": "https://github.com/stevesloan/litecoin.org#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

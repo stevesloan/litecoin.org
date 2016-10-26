@@ -7,7 +7,7 @@
 <title>{{ .Site.Title }}</title>
 {{ "<!-- Stylesheets -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
-<link href="{{ .Site.BaseURL }}css/agency.css" rel="stylesheet">
+<link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
 {{ range .Site.Params.custom_css }}
   <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 {{ end }}

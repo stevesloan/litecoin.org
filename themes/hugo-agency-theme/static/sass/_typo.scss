@@ -3,7 +3,7 @@
 }
 
 .text-primary {
-    color: #99caf0;
+    color: $c-primary;
 }
 .text-no-margin {
   margin:0;
@@ -27,14 +27,14 @@ a.active {
 }
 
 a {
-    color: #99caf0;
+    color: $c-primary;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #99caf0;
+    color: $c-primary;
 }
 
 h1,

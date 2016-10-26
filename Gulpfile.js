@@ -10,5 +10,6 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
+  gulp.watch('./themes/hugo-agency-theme/static/sass/**/*.scss', ['sass']);
   gulp.watch('./themes/hugo-agency-theme/static/sass/**/*.sass', ['sass']);
 });

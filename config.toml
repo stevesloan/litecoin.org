@@ -80,14 +80,6 @@ googleAnalytics = ""
       weight = 10
 
 
-  # Hero section
-  [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
-    title = "Global Decentralized Currency"
-    subtitle = "Based on Blockchain Technology"
-    buttonText = "Download"
-
 
   # Services section
   [params.services]
@@ -301,22 +293,31 @@ hrefTargetBlank = true
 [Languages.en]
 weight = 1
 
+# Hero section
+[Languages.en.hero]
+  # To change the background image of the hero, replace 'header-bg.jpg' in
+  # the 'static/img' folder.
+  title = "Global Decentralized Currency"
+  subtitle = "Based on Blockchain Technology"
+  button_text = "Downloads"
+
+
 
 [Languages.en.blackfriday]
 angledQuotes = false
+
 
 [Languages.fr]
   weight = 2
 
   title = "Litecoin - Monnaie électronique décentralisée et open source"
-  subtitle = "Based on Blockchain Technology"
-  buttonText = "Download"
+
 [Languages.fr.hero]
   # To change the background image of the hero, replace 'header-bg.jpg' in
   # the 'static/img' folder.
-  title = "Global Decentralized Currency"
-  subtitle = "Based on Blockchain Technology"
-  buttonText = "Download"
+  title = "fr-Global Decentralized Currency"
+  subtitle = "frBased on Blockchain Technology"
+  button_text = "fDownload"
 
 [Languages.fr.Taxonomies]
 plaque = "plaques"

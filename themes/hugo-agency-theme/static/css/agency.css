@@ -16,6 +16,9 @@ body {
 .text-primary {
     color: #99caf0;
 }
+.text-no-margin {
+  margin:0;
+}
 
 p {
     font-size: 14px;
@@ -58,6 +61,13 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+}
+
+.btn-small {
+  font-family: "helvetica Neue";
+  font-size:.8em;
+  font-weight:lighter;
+  text-transform:none;
 }
 
 .bg-light-gray {
@@ -134,7 +144,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #fff;
     color: #fff;
     background-color: #99caf0;
 }

@@ -92,7 +92,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-group"
       title = "Community"
-      description = 'Find support across a growing number of Litecoin communities: <ul class="text-muted"> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
+      description = '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
 
     [[params.services.row.list]]
       icon = "fa-laptop"
@@ -299,7 +299,7 @@ weight = 1
   # the 'static/img' folder.
   title = "Global Decentralized Currency"
   subtitle = "Based on Blockchain Technology"
-  button_text = "Downloads"
+  button_text = "Download"
 
 
 

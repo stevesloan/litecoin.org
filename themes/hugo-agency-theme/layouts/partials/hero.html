@@ -4,7 +4,14 @@
     <div class="intro-text">
       <div class="intro-heading">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
       <div class="intro-lead-in">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-      <a href="#download" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.button_text }}{{ . | markdownify }}{{ end }}</a>
+      <a href="#download" class="page-scroll btn btn-xl">
+        <i class="fa fa-group fa-stack-1x fa-apple" style="margin-left:-70px"></i>
+        {{ with .Site.Params.hero.button_text }}{{ . | markdownify }}{{ end }}
+        <div class="btn-small">Litecoin Wallet for Mac OS X</div>
+      </a>
+      <p><br />
+        <a href="#download" class="page-scroll  ">GPG Signatures</a> | <a href="#download" class="page-scroll  ">Other Versions</a>
+      </p>
     </div>
   </div>
 </header>

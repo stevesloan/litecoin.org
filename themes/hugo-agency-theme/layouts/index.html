@@ -11,8 +11,8 @@
       {{ partial "about.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.portfolio.enable }}
-      {{ partial "portfolio.html" . }}
+    {{ if .Site.Params.download.enable }}
+      {{ partial "download.html" . }}
     {{ end }}
 
     {{ if .Site.Params.team.enable }}

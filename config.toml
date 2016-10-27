@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org"
+baseurl = "https://stevesloan.github.io"
 languageCode = "en-us"
 title = "Litecoin - Open source P2P digital currency"
 theme = "hugo-agency-theme"
@@ -57,8 +57,7 @@ googleAnalytics = ""
   # Navigation
   [params.navigation]
     brand = "litecoin"
-    services = "Services"
-    portfolio = "Portfolio"
+    download = "Download"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -75,8 +74,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://litecointalk.io/"
+      name = "Forum"
       weight = 10
 
 
@@ -118,17 +117,17 @@ googleAnalytics = ""
       icon = "fa-money"
       title = "Mining Reward"
       description = "Miners are currently awarded with 25 new litecoins per block, an amount which gets halved roughly every 4 years (every 840,000 blocks). <br />The Litecoin network is therefore scheduled to produce 84 million litecoins, which is 4 times as many currency units as Bitcoin."
-  # Portfolio section
-  [params.portfolio]
+  # download section
+  [params.download]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
+    title = "Download"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-    [params.portfolio.modal]
+    [params.download.modal]
       client = "Client"
       date = "Date"
       category = "Category"
@@ -172,7 +171,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     title = "Our amazing team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -211,7 +210,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
@@ -260,7 +259,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright &copy; 2011-2016 Litecoin Project. <br />All rights reserved."
 
     [[params.footer.social]]
       icon = "fa-twitter"

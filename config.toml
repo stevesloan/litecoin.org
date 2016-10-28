@@ -3,39 +3,11 @@ baseurl = "https://stevesloan.github.io"
 languageCode = "en-us"
 title = "Litecoin - Open source P2P digital currency"
 theme = "hugo-litecoin-theme"
-
-# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-
-
-
+ignoreFiles = [ "\\.scss$", "\\.sass$" ]
 
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
-  name = "Your name"
-  description = "Your description"
-
-  # Since this template is static, the contact form uses www.formspree.io as a
-  # proxy. The form makes a POST request to their servers to send the actual
-  # email. Visitors can send up to a 1000 emails each month for free.
-  #
-  # What you need to do for the setup?
-  #
-  # - set your email address under 'email' below
-  # - upload the generated site to your server
-  # - send a dummy email yourself to confirm your account
-  # - click the confirm link in the email from www.formspree.io
-  # - you're done. Happy mailing!
-  email = "your@email.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,15 +17,6 @@ googleAnalytics = ""
   # Exception: Fontawesome
   disableFonts = false
 
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
   # Navigation
   [params.navigation]
     brand = "litecoin"
@@ -61,10 +24,6 @@ googleAnalytics = ""
     about = "About"
     team = "Team"
     contact = "Contact"
-
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
 
     # prepended links
     #[[menu.prepend]]
@@ -79,97 +38,48 @@ googleAnalytics = ""
       weight = 10
 
 
-
-  # Services section
-  [params.services]
+  # About section
+  [params.about]
     enable = true
     title = "What is Litecoin?"
     subtitle = "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Litecoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
 
-    [[params.services.row]]
+    [[params.about.row]]
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-group"
       title = "Community"
       description = '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-laptop"
       title = "Resources"
       description = 'Find general information as well as a list of services and exchanges that support Litecoin at the <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date network statistics can be found at <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Source code for Litecoin Core and related projects are available on <a href="https://github.com/litecoin-project">GitHub</a>.'
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-heart"
       title = "Open Source Software"
       description = "Litecoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code."
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-link"
       title = "Blockchain"
       description = "The Litecoin blockchain is capable of handling higher transaction volume than its counterpart - Bitcoin. Due to more frequent block generation, the network supports more transactions without a need to modify the software in the future. <br />As a result, merchants get faster confirmation times, while still having ability to wait for more confirmations when selling bigger ticket items."
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-lock"
       title = "Wallet Encryption"
       description = "Wallet encryption allows you to secure your wallet, so that you can view transactions and your account balance, but are required to enter your password before spending litecoins. <br />This provides protection from wallet-stealing viruses and trojans as well as a sanity check before sending payments."
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-money"
       title = "Mining Reward"
       description = "Miners are currently awarded with 25 new litecoins per block, an amount which gets halved roughly every 4 years (every 840,000 blocks). <br />The Litecoin network is therefore scheduled to produce 84 million litecoins, which is 4 times as many currency units as Bitcoin."
   # download section
   [params.download]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
     title = "Download"
     subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
-
-    [params.download.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
-
-
-    # About section
-  [params.about]
-    enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
-    [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-
-
 
 
   # Contact section
@@ -177,24 +87,6 @@ googleAnalytics = ""
     enable = true
     title = "Contact us"
     subtitle  = "You can contact Litecoin project development team at <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>"
-    buttonText = "Send message"
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
-
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
 
 
   # Footer section
@@ -266,23 +158,29 @@ plaque = "plaques"
 brand = "litecoin"
 about = "About"
 
-[Languages.fr.services]
+[Languages.fr.about]
 title = "Litecoin, c'est quoi ?"
 subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paiements instantanés, avec des coûts proches de zéro à quiconque dans le monde. Litecoin est un réseau de paiement mondial open source, qui est entièrement décentralisé sans autorités centrale. Les utilisateurs peuvent mainteant contrôler leurs propres finances, securisées par un systeme basé entierement sur des mathématiques. Par rapport à Bitcoin, les transactions Litecoin sans plus rapides à confirmer et ont une efficacité de stockage accrue. De part son utilisation par l'industrie, le volume d'échange et de liquidité sur les marchés d'échange, Litecoin est un moyen de commerce complémentaire à Bitcoin, qui a fait ses preuves."
 
-[[Languages.fr.services.row]]
+[[Languages.fr.about.row]]
 
-[[Languages.fr.services.row.list]]
+[[Languages.fr.about.row.list]]
   icon = "fa-shopping-cart"
   title = "Community"
   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-[[Languages.fr.services.row.list]]
+[[Languages.fr.about.row.list]]
   icon = "fa-laptop"
   title = "Resources"
   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-[[Languages.fr.services.row.list]]
+[[Languages.fr.about.row.list]]
   icon = "fa-lock"
   title = "Wallet Encryption"
   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+
+[Languages.sp]
+  weight = 2
+
+  title = "Litecoin - sp"

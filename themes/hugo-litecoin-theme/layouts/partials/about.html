@@ -1,17 +1,17 @@
-{{ "<!-- Services -->" | safeHTML }}
+{{ "<!-- About -->" | safeHTML }}
 <section id="about" >
   <div class="container spacer">
     <div class="row">
       <div class="col-lg-12 ">
-        <h2 class="section-heading text-center">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
-        <p class="large text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</p>
+        <h2 class="section-heading text-center">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</h2>
+        <p class="large text-muted">{{ with .Site.Params.about.subtitle }}{{ . | markdownify }}{{ end }}</p>
       </div>
     </div>
   </div>
 
   <div class="container">
 
-    {{ range .Site.Params.services.row }}
+    {{ range .Site.Params.about.row }}
       <div class="row ">
         {{ range .list }}
           <div class="col-md-4 text-center">

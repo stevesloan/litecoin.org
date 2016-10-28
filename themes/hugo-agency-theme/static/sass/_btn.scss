@@ -12,7 +12,7 @@
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #f6bf01;
+  border-color: $c-primary;
   color: #fff;
   background-color: $c-primary;
 }
@@ -59,12 +59,24 @@ fieldset[disabled] .btn-primary.active {
   background-color: $c-primary;
 }
 
+.btn-dark {
+  background: darken($c-primary,20%);
+}
+
+.btn-wide {
+  width:100%;
+}
+
+.btn-spacer {
+  margin-bottom:2em;
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  border-color: #fff;
+  border-color: darken($c-primary,15%);
   color: #fff;
   background-color: $c-primary;
 }

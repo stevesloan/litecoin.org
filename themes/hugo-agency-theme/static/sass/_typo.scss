@@ -40,6 +40,13 @@ img::-moz-selection {
   margin:0;
 }
 
+.text-left {
+  text-align: left;
+}
+.text-bright {
+  color:#fff;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -58,7 +65,7 @@ a.active {
 }
 
 a {
-    color: $c-primary;
+    color: $c-primary-dark;
 }
 
 a:hover,
@@ -75,6 +82,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    
+
     font-weight: 700;
 }

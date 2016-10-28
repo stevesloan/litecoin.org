@@ -4,12 +4,13 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
-        <h3 class="section-subheading text-muted">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+        <p class="large text-bright">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+    <!-- <div class="row">
+      <div class="col-lg-12"> -->
+
+        <!-- <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -37,8 +38,8 @@
               <button type="submit" class="btn btn-xl">{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}</button>
             </div>
           </div>
-        </form>
-      </div>
-    </div>
+        </form> -->
+      <!-- </div>
+    </div> -->
   </div>
 </section>

@@ -1,0 +1,12 @@
+modalID: 1
+title: Download
+
+line1: Litecoin Core 0.10.4.0
+line2: Wallet for Windows
+
+img: windows
+
+uri: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win64-setup.exe
+gpg: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win-signatures.asc
+bit32: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win32-setup.exe
+bit64: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win64-setup.exe

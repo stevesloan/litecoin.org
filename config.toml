@@ -125,7 +125,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Download"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
 
     [params.download.modal]
       client = "Client"
@@ -169,73 +169,14 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
-  # Team section
-  [params.team]
-    enable = false
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-  # Client section
-    [params.clients_list]
-      enable = false
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
 
   # Contact section
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "You can contact Litecoin project development team at <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>"
     buttonText = "Send message"
 
     # 'warning' defines error messages for invalid inputs
@@ -263,15 +204,15 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/LitecoinProject"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+      icon = "fa-comments"
+      link = "https://web.telegram.org/#/im?p=@Litecoin"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+      icon = "fa-reddit-alien"
+      link = "https://www.reddit.com/r/litecoin/"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"

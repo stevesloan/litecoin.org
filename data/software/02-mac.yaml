@@ -1,0 +1,8 @@
+modalID: 2
+title: Download
+line1: Litecoin Core 0.10.4.0
+line2: Wallet for Mac OS X
+img: apple
+uri: https://download.litecoin.org/litecoin-0.10.4.0/osx/litecoin-0.10.4.0-osx.dmg
+
+gpg: https://download.litecoin.org/litecoin-0.10.4.0/osx/litecoin-0.10.4.0-osx.dmg.asc

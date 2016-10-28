@@ -125,7 +125,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Download"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
 
     [params.download.modal]
       client = "Client"

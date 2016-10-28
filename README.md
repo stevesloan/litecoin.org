@@ -1,3 +1,5 @@
 # litecoin.org
 
-hugo server --buildDrafts -w
+npm i
+npm start
+hugo serve

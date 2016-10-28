@@ -2,7 +2,7 @@
 baseurl = "https://stevesloan.github.io"
 languageCode = "en-us"
 title = "Litecoin - Open source P2P digital currency"
-theme = "hugo-agency-theme"
+theme = "hugo-litecoin-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

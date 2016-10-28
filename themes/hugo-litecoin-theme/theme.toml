@@ -1,0 +1,17 @@
+name = "Litecoin.org"
+license = "Apache License 2.0"
+licenselink = ""
+description = "The theme for litecoin.org"
+homepage = "//github.com/stevesloan/litecoin.org"
+tags = ["litecoin"]
+min_version = 0.01
+
+[author]
+  name = "Steve Sloan"
+  homepage = "//github.com/stevesloan"
+
+# If porting an existing theme
+[original]
+  name = "David Miller"
+  homepage = "//www.ironsummitmedia.com/"
+  repo = "//github.com/IronSummitMedia/startbootstrap-agency"

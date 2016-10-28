@@ -204,15 +204,15 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/LitecoinProject"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+      icon = "fa-comments"
+      link = "https://web.telegram.org/#/im?p=@Litecoin"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+      icon = "fa-reddit-alien"
+      link = "https://www.reddit.com/r/litecoin/"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"

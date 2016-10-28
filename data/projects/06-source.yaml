@@ -1,0 +1,10 @@
+modalID: 6
+title: Source
+
+line1: Litecoin Core Github
+line2: Android Github
+img: github-alt
+uri: https://github.com/litecoin-project/litecoin
+android: https://github.com/Litecoin-Java
+
+gpgPublicKey: https://pgp.mit.edu/pks/lookup?op=get&search=0xFE3348877809386C

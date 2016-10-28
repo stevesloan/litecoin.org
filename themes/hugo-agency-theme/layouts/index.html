@@ -13,15 +13,7 @@
 
     {{ if .Site.Params.download.enable }}
       {{ partial "download.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.team.enable }}
-      {{ partial "team.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.clients_list.enable }}
-      {{ partial "clients.html" . }}
-    {{ end }}
+    {{ end }}  
 
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact.html" . }}
@@ -31,9 +23,6 @@
       {{ partial "footer.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.portfolio.enable }}
-      {{ partial "modals.html" . }}
-    {{ end }}
 
     {{ partial "js.html" . }}
   </body>

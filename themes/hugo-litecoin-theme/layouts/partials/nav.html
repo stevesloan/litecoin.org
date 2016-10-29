@@ -12,7 +12,11 @@
       <a class="navbar-brand page-scroll " href="#page-top"><img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+
+
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
           <a href="#page-top"></a>
@@ -51,7 +55,7 @@
 
       {{ if .IsTranslated }}
       <h4>{{ i18n "translations" }}</h4>
-      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="background:none;color:white;float:right;border:1px solid white; margin-top:-1px">
       {{ .Site.Params.lang }} <span class="caret"></span>
       </button>
       <ul class="dropdown-menu">
@@ -62,7 +66,7 @@
           {{ end}}
       </ul>
       {{ end }}
-      
+
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
   </div>

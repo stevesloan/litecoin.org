@@ -22,6 +22,10 @@ angledQuotes = true
 hrefTargetBlank = true
 
 [params]
+  [params.downloadCommon]
+    releaseNotesURL = "http://blog.litecoin.org/2015/12/litecoin-core-v01040.html"
+    upgradeNotesURL = "https://litecoin.info/Upgrading_Litecoin"
+
   [params.footerCommon]
     [[params.footerCommon.social]]
       icon = "fa-twitter"
@@ -119,6 +123,8 @@ hrefTargetBlank = true
     download = "Download"
     source = "Source"
     walletfor = "Wallet for"
+    releaseNotes = "Release Notes"
+    upgradeNotes = "Upgrade Notes"
 
 
   # Contact section
@@ -276,8 +282,10 @@ title = "莱特币 - 开源的P2P数字货币"
   subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
   gpg = "GPG Signatures"
   download = "下载"
-  source = "Source"
+  source = "开源项目"
   walletfor = "Wallet for"
+  releaseNotes = "#发行说明"
+  upgradeNotes = "升级说明"
 
 
 # Contact section

@@ -12,14 +12,21 @@
         <div class="col-md-4 col-sm-6 btn-spacer ">
             <a href="{{ .uri }}" class="page-scroll btn btn-xl btn-wide text-left" style="color:white">
               <i class="fa fa-group fa-{{ .img | markdownify }}" style="padding-right:0.8em;line-height:1.5em;font-size:2.5em;float:left; opacity:.7"></i>
-              <div>{{ .title | markdownify }}</div>
+              <div>
+                {{ if .isCompiled }}{{ $.Site.Params.download.download }}{{else}}{{ $.Site.Params.download.source }}{{ end }}
+              </div>
               <div class="btn-small">{{ .line1 | markdownify }}</div>
-              <div class="btn-small">{{ .line2 | markdownify }}</div>
+              <div class="btn-small">
+                {{ if .isWallet }}{{ $.Site.Params.download.walletfor }}{{ end }}
+                {{ .line2 | markdownify }}
+              </div>
 
             </a>
             <div>
-              {{ with .gpg }}<a href="{{ . }}">GPG Signatures</a> | {{ end }}
-              {{ with .bit32 }}<a href="{{ . }}">32bit</a> | {{ end }}
+
+
+              {{ with .gpg }}<a href="{{ . }}">{{ $.Site.Params.download.gpg }}</a>{{ end }}
+              {{ with .bit32 }} | <a href="{{ . }}">32bit</a> | {{ end }}
               {{ with .bit64 }}<a href="{{ . }}">64bit</a>{{ end }}
               {{ with .gpgPublicKey }}<a href="{{ . }}">GPG Public Key</a>{{ end }}
               &nbsp;

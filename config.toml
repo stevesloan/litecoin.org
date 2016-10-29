@@ -21,17 +21,35 @@ tag = "tags"
 angledQuotes = true
 hrefTargetBlank = true
 
-[Languages]
-[Languages.en]
-weight = 1
+[params]
+  [params.footerCommon]
+    [[params.footerCommon.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/LitecoinProject"
 
-# Hero section
-[Languages.en.hero]
-  # To change the background image of the hero, replace 'header-bg.jpg' in
-  # the 'static/img' folder.
-  title = "Global Decentralized Currency"
-  subtitle = "Based on Blockchain Technology"
-  button_text = "Download"
+    [[params.footerCommon.social]]
+      icon = "fa-comments"
+      link = "https://web.telegram.org/#/im?p=@Litecoin"
+
+    [[params.footerCommon.social]]
+      icon = "fa-reddit-alien"
+      link = "https://www.reddit.com/r/litecoin/"
+
+
+
+
+[Languages]
+  [Languages.en]
+    lang = "English"
+    weight = 1
+
+  # Hero section
+  [Languages.en.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Global Decentralized Currency"
+    subtitle = "Based on Blockchain Technology"
+    button_text = "Download"
 
   # Navigation
   [Languages.en.navigation]
@@ -65,7 +83,7 @@ weight = 1
       [[Languages.en.about.row.list]]
         icon = "fa-group"
         title = "Community"
-        description = '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
+        description =  '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
 
       [[Languages.en.about.row.list]]
         icon = "fa-laptop"
@@ -97,6 +115,10 @@ weight = 1
     enable = true
     title = "Download"
     subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
+    gpg = "GPG Signatures"
+    download = "Download"
+    source = "Source"
+    walletfor = "Wallet for"
 
 
   # Contact section
@@ -111,18 +133,6 @@ weight = 1
     enable = true
     copyright = "Copyright &copy; 2011-2016 Litecoin Project. <br />All rights reserved."
 
-    [[Languages.en.footer.social]]
-      icon = "fa-twitter"
-      link = "https://twitter.com/LitecoinProject"
-
-    [[Languages.en.footer.social]]
-      icon = "fa-comments"
-      link = "https://web.telegram.org/#/im?p=@Litecoin"
-
-    [[Languages.en.footer.social]]
-      icon = "fa-reddit-alien"
-      link = "https://www.reddit.com/r/litecoin/"
-
     [[Languages.en.footer.quicklinks]]
       text = "Privacy Policy"
       link = "#"
@@ -133,9 +143,10 @@ weight = 1
 
 
 
-
+# FRENCH _____________________________
 
 [Languages.fr]
+  lang = "Francais"
   weight = 2
 
   title = "Litecoin - Monnaie électronique décentralisée et open source"
@@ -175,8 +186,116 @@ subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paieme
   title = "Wallet Encryption"
   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
+# SPANISH _____________________________
 
 [Languages.sp]
+  lang = "Spanish"
   weight = 2
 
   title = "Litecoin - sp"
+
+
+# CHINESE _____________________________
+
+[Languages.cn]
+lang = "中文"
+title = "莱特币 - 开源的P2P数字货币"
+  weight = 1
+
+# Hero section
+[Languages.cn.hero]
+  # To change the background image of the hero, replace 'header-bg.jpg' in
+  # the 'static/img' folder.
+  title = "Global Decentralized Currency"
+  subtitle = "Based on Blockchain Technology"
+  button_text = "下载"
+
+# Navigation
+[Languages.cn.navigation]
+  brand = "litecoin"
+  download = "下载"
+  about = "About"
+  team = "Team"
+  contact = "Contact"
+
+  # prepended links
+  #[[menu.prepend]]
+  #  url = "http://gohugo.io"
+  #  name = "Hugo"
+  #  weight = 10
+
+  # postpended links
+  [[menu.postpend]]
+    url = "https://litecointalk.io/"
+    name = "Forum"
+    weight = 10
+
+
+# About section
+[Languages.cn.about]
+  enable = true
+  title = "什么是莱特币？"
+  subtitle = "莱特币加密货币是一款点对点的分布式网络货币系统。她可以在瞬间，以低廉交易费的方式向全世界的任意角落付款。莱特币是一个开源的项目，全球性的支付网络，她没有任何的中央控制节点。严谨的密码学协议使这个网络系统充分保障每一位用户的财务安全。莱特币相对比特币的加密货币系统，拥有更快的交易确认时间，更高的网络交易容量和效率。莱特币现在拥有完整的产业链，充分的流动性，足以证明其是成熟、安全、稳定的商用金融系统。"
+
+  [[Languages.cn.about.row]]
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-group"
+      title = "社区"
+      description =  '<p class="text-no-margin text-left text-muted">您可以在日益壮大的莱特币社区中寻求技术支持以及交流分享，例如： </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">莱特币论坛</a></li> <li><a href="http://www.reddit.com/r/litecoin">莱特币Reddit社区</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">搜索推特上的用户</a></li> <li>加入<a href="http://freenode.net/" rel="nofollow">IRC 即时聊天网络</a>网络频道<a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#莱特币即时交流</a>(面向普通的交流用户)，<a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#莱特币-dev</a>(面向开发者交流)</li> </ul>'
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-laptop"
+      title = "资源"
+      description = '查看<a href="http://litecoin.info">莱特币维基百科</a>，可以获取莱特币的相关信息，以及查看所有支持莱特币的网站列表以及交易市场。 <br> 查看<a href="http://ltc.block-explorer.com/charts">莱特币交易图表</a>，获取最新的网上交易数据。 <br> 访问<a href="https://github.com/litecoin-project">GitHub.com/litecoin-project</a>，获取莱特币的源代码及相关项目。'
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-heart"
+      title = "开源软件"
+      description = "莱特币货币系统是一款遵循MIT/X11许协议的免费软件项目，它让您能够根据自己的需要对软件进行运行、修改和复制。如果你愿意，你也可以发行软件的修改版本。该软件以完全公开源码的形式发布，用户可以对二进制版本以及对应源代码进行独立验证。"
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-link"
+      title = "数据块链"
+      description = "莱特币数据块链与其竞争者——比特币相比起来，能够处理更大的交易量。由于数据块的产出更加频繁，该网络可以支持更多的交易，并且在将来无需修改软件。 <br />因此，商家可以获得更快的交易确认，而且在销售大额商品时依然能够等待更多的交易确认。"
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-lock"
+      title = "钱包加密"
+      description = "钱包加密能够保证您钱包中私钥的安全，从而让您可以查看交易情况及账户余额，但是在您使用莱特币之前必须输入密码。 <br />该功能不仅能够防止病毒及木马的侵扰，同时还是支付之前，一项合法性的有效检查。"
+
+    [[Languages.cn.about.row.list]]
+      icon = "fa-money"
+      title = "挖矿奖励"
+      description = "“矿工们”目前每数据块可以产出25个莱特币。每4年，生产的莱特币货币量将减少一半(每经过840000个数据块)。 <br />因此，莱特币网络生产的货币总量将是比特币的4倍，即8400万个莱特币。"
+
+# download section
+[Languages.cn.download]
+  enable = true
+  title = "下载"
+  subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
+  gpg = "GPG Signatures"
+  download = "下载"
+  source = "Source"
+  walletfor = "Wallet for"
+
+
+# Contact section
+[Languages.cn.contact]
+  enable = true
+  title = "Contact us"
+  subtitle  = "您可以通过邮件 <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>联系莱特币的开发维护团队。"
+
+
+# Footer section
+[Languages.cn.footer]
+  enable = true
+  copyright = "Copyright &copy; 2011-2016 莱特币项目版权归开发者所有，并保留所有权利。"
+
+  [[Languages.cn.footer.quicklinks]]
+    text = "Privacy Policy"
+    link = "#"
+
+  [[Languages.cn.footer.quicklinks]]
+    text = "Terms of Use"
+    link = "#"

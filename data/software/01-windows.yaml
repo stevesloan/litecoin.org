@@ -1,9 +1,10 @@
-title: Download
-
 line1: Litecoin Core 0.10.4.0
-line2: Wallet for Windows
+line2: Windows
 
 img: windows
+isCompiled: 1
+isWallet: 1
+
 
 uri: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win64-setup.exe
 gpg: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win-signatures.asc

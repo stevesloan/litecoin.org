@@ -1,7 +1,8 @@
-
-title: Download
-
 line1: Litecoin Wallet for Android
 line2: Litecoin Wallet for Blackberry
+
 img: android
+isCompiled: 1
+isWallet: 0
+
 uri: https://litecointalk.org/index.php?topic=12196.0

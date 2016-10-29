@@ -1,3 +1,34 @@
+.dropdown-menu {
+  position:relative;
+  top:auto;
+  left:auto;
+
+  @media(min-width:768px) {
+    float:right;
+  }
+}
+
+.dropdown-toggle {
+  background:none;
+  color:$f-nav;
+
+  float:left;
+  border-color: $f-nav;
+  margin-top:-1px;
+  margin-right:1em;
+  @media(min-width:768px) {
+    color:white;
+    border-color: white;
+    float:right;
+  }
+}
+
+.navbar-shrink .dropdown-toggle {
+border-color: $f-nav;
+color:$f-nav;
+
+}
+
 
 
 .navbar-default {

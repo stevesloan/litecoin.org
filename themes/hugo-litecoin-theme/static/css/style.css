@@ -169,6 +169,31 @@ fieldset[disabled] .btn-xl.active {
 .btn:active:focus {
   outline: 0; }
 
+.dropdown-menu {
+  position: relative;
+  top: auto;
+  left: auto; }
+  @media (min-width: 768px) {
+    .dropdown-menu {
+      float: right; } }
+
+.dropdown-toggle {
+  background: none;
+  color: #888;
+  float: left;
+  border-color: #888;
+  margin-top: -1px;
+  margin-right: 1em; }
+  @media (min-width: 768px) {
+    .dropdown-toggle {
+      color: white;
+      border-color: white;
+      float: right; } }
+
+.navbar-shrink .dropdown-toggle {
+  border-color: #888;
+  color: #888; }
+
 .navbar-default {
   border-color: transparent;
   background-color: #fff; }

@@ -11,7 +11,7 @@
 
   <div class="container">
 
-    {{ range .Site.Params.about.row }}
+    {{ range $i, $e := .Site.Params.about.row }}
       <div class="row ">
         {{ range .list }}
           <div class="col-md-4 text-center">
@@ -22,6 +22,9 @@
             <h4 class="service-heading">{{ .title | markdownify }}</h4>
             <p class="text-muted text-left">{{ .description | markdownify }}</p>
           </div>
+        {{ end }}
+        {{ if mod $i 3 | eq 0 }}
+      </div><div class="row">
         {{ end }}
       </div>
     {{ end }}

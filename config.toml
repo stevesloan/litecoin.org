@@ -98,7 +98,7 @@ hrefTargetBlank = true
         icon = "fa-heart"
         title = "Open Source Software"
         description = "Litecoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code."
-
+[[Languages.en.about.row]]
       [[Languages.en.about.row.list]]
         icon = "fa-link"
         title = "Blockchain"
@@ -260,6 +260,7 @@ title = "莱特币 - 开源的P2P数字货币"
       title = "开源软件"
       description = "莱特币货币系统是一款遵循MIT/X11许协议的免费软件项目，它让您能够根据自己的需要对软件进行运行、修改和复制。如果你愿意，你也可以发行软件的修改版本。该软件以完全公开源码的形式发布，用户可以对二进制版本以及对应源代码进行独立验证。"
 
+  [[Languages.cn.about.row]]
     [[Languages.cn.about.row.list]]
       icon = "fa-link"
       title = "数据块链"

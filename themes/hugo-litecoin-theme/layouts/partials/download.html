@@ -17,14 +17,14 @@
               </div>
               <div class="btn-small">{{ .line1 | markdownify }}</div>
               <div class="btn-small">
-                {{ if .isWallet }}{{ $.Site.Params.download.walletfor }}{{ end }}
-                {{ .line2 | markdownify }}
+                {{ if .isWindows }}{{ $.Site.Params.download.windows }}{{ end }}
+                {{ if .isMac }}{{ $.Site.Params.download.mac }}{{ end }}
+                {{ if .isLinux }}{{ $.Site.Params.download.linux }}{{ end }}
+                {{ if .isAndroid }}{{ $.Site.Params.download.android }}<br />{{ $.Site.Params.download.blackberry }}{{ end }}
               </div>
 
             </a>
             <div>
-
-
               {{ with .gpg }}<a href="{{ . }}">{{ $.Site.Params.download.gpg }}</a>{{ end }}
               {{ with .bit32 }} | <a href="{{ . }}">32bit</a> | {{ end }}
               {{ with .bit64 }}<a href="{{ . }}">64bit</a>{{ end }}

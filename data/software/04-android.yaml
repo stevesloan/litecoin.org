@@ -1,8 +1,7 @@
-line1: Litecoin Wallet for Android
-line2: Litecoin Wallet for Blackberry
+line1: ""
 
 img: android
 isCompiled: 1
-isWallet: 0
+isAndroid: 1
 
 uri: https://litecointalk.org/index.php?topic=12196.0

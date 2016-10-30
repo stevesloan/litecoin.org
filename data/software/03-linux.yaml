@@ -1,9 +1,8 @@
 line1: Litecoin Core 0.10.4.0
-line2: Linux
 
 img: linux
 isCompiled: 1
-isWallet: 1
+isLinux: 1
 
 uri: https://download.litecoin.org/litecoin-0.10.4.0/linux/litecoin-0.10.4.0-linux64.tar.gz
 

@@ -1,9 +1,8 @@
 line1: Litecoin Core 0.10.4.0
-line2: Mac OS X
 
 img: apple
 isCompiled: 1
-isWallet: 1
+isMac: 1
 
 uri: https://download.litecoin.org/litecoin-0.10.4.0/osx/litecoin-0.10.4.0-osx.dmg
 

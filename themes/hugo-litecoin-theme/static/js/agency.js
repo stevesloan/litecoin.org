@@ -36,20 +36,17 @@ function detectDownloadBtnOS() {
     $("#heroDownload .if-os-" + os).addClass('os-' + os);
     $("#heroDownload .detect").html($("#heroDownload .detect").attr('data-' + os));
   }
-  // console.log($.browser.platform);
+  console.log($.browser.platform);
   switch ($.browser.platform) {
     case 'mac':
       showOSButton('mac','apple');
       break;
-
-    case 'windows':
+    case 'win':
       showOSButton('windows','windows');
       break;
-
     case 'linux':
       showOSButton('linux','linux');
       break;
-
     case 'android':
       showOSButton('android','android');
       break;

@@ -130,6 +130,13 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
     releaseNotes = "Release Notes"
     upgradeNotes = "Upgrade Notes"
 
+    windows = "for Windows"
+    mac = "for Mac OS X"
+    linux = "for Linux"
+    android = "Litecoin for Android"
+    blackberry = "Litecoin for Blackberry"
+    electrum = "Electrum Litecoin"
+
 
   # Contact section
   [Languages.en.contact]
@@ -289,6 +296,13 @@ title = "莱特币 - 开源的P2P数字货币"
   walletfor = "Wallet for"
   releaseNotes = "#发行说明"
   upgradeNotes = "升级说明"
+
+  windows = "for Windows"
+  mac = "for Mac OS X"
+  linux = "for Linux"
+  android = "Litecoin for Android"
+  blackberry = "Litecoin for Blackberry"
+  electrum = "Electrum Litecoin"
 
 
 # Contact section

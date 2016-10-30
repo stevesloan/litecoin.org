@@ -1,9 +1,9 @@
 line1: Litecoin Core 0.10.4.0
-line2: Windows
 
 img: windows
 isCompiled: 1
 isWallet: 1
+isWindows: 1
 
 
 uri: https://download.litecoin.org/litecoin-0.10.4.0/win/litecoin-0.10.4.0-win64-setup.exe

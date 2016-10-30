@@ -1,7 +1,8 @@
 # Site settings
 baseurl = "https://stevesloan.github.io"
 languageCode = "en-us"
-title = "Litecoin - Open source P2P digital currency"
+
+
 theme = "hugo-litecoin-theme"
 googleAnalytics = ""
 ignoreFiles = [ "\\.scss$", "\\.sass$" ]
@@ -22,6 +23,8 @@ angledQuotes = true
 hrefTargetBlank = true
 
 [params]
+description = "Litecoin is a cryptocurrency that enables instant payments to anyone in the world and that can be efficiently mined with consumer-grade hardware."
+
   [params.downloadCommon]
     releaseNotesURL = "http://blog.litecoin.org/2015/12/litecoin-core-v01040.html"
     upgradeNotesURL = "https://litecoin.info/Upgrading_Litecoin"
@@ -45,6 +48,7 @@ hrefTargetBlank = true
 [Languages]
   [Languages.en]
     lang = "English"
+    title = "Litecoin - Open source P2P digital currency"
     weight = 1
 
   # Hero section
@@ -210,10 +214,8 @@ title = "莱特币 - 开源的P2P数字货币"
 
 # Hero section
 [Languages.cn.hero]
-  # To change the background image of the hero, replace 'header-bg.jpg' in
-  # the 'static/img' folder.
-  title = "Global Decentralized Currency"
-  subtitle = "Based on Blockchain Technology"
+  # title = "Global Decentralized Currency"
+  # subtitle = "Based on Blockchain Technology"
   button_text = "下载"
 
 # Navigation
@@ -292,7 +294,7 @@ title = "莱特币 - 开源的P2P数字货币"
 # Contact section
 [Languages.cn.contact]
   enable = true
-  title = "Contact us"
+  # title = "Contact us"
   subtitle  = "您可以通过邮件 <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>联系莱特币的开发维护团队。"
 
 

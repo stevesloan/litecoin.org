@@ -13,6 +13,9 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    detectDownloadBtnOS();
+
 });
 
 // Highlight the top nav as scrolling occurs
@@ -24,3 +27,31 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+function detectDownloadBtnOS() {
+  function showOSButton(os, icon) {
+    $("#heroDownload").addClass('os-known');
+    $("#heroDownload i").addClass('fa-' + icon);
+    $("#heroDownload .if-os-" + os).addClass('os-' + os);
+    $("#heroDownload .detect").html($("#heroDownload .detect").attr('data-' + os));
+  }
+  // console.log($.browser.platform);
+  switch ($.browser.platform) {
+    case 'mac':
+      showOSButton('mac','apple');
+      break;
+
+    case 'windows':
+      showOSButton('windows','windows');
+      break;
+
+    case 'linux':
+      showOSButton('linux','linux');
+      break;
+
+    case 'android':
+      showOSButton('android','android');
+      break;
+  }
+}

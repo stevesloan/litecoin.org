@@ -679,6 +679,20 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #88CBF5; }
 
+.if-os-known {
+  display: none;
+  visibility: hidden; }
+
+.os-known .if-os-known {
+  display: block;
+  visibility: visible; }
+
+.if-os-windows, .if-os-mac {
+  display: none; }
+
+.os-windows, .os-mac {
+  display: block; }
+
 header {
   text-align: center;
   color: #fff;
@@ -696,13 +710,13 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 22px; }
 
 header .intro-text .intro-heading {
   margin-bottom: 25px;
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 50px;
   line-height: 50px; }
 

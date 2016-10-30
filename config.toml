@@ -57,7 +57,6 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
     # the 'static/img' folder.
     title = "Global Decentralized Currency"
     subtitle = "Based on Blockchain Technology"
-    button_text = "Download"
 
   # Navigation
   [Languages.en.navigation]
@@ -122,7 +121,6 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
   [Languages.en.download]
     enable = true
     title = "Download"
-    subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
     gpg = "GPG Signatures"
     download = "Download"
     source = "Source"
@@ -162,53 +160,115 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
 # FRENCH _____________________________
 
 [Languages.fr]
-  lang = "Francais"
-  weight = 2
-
+  lang = "Français"
+  languageCode = "fr"
   title = "Litecoin - Monnaie électronique décentralisée et open source"
+  weight = 1
 
+# Hero section
 [Languages.fr.hero]
   # To change the background image of the hero, replace 'header-bg.jpg' in
   # the 'static/img' folder.
-  title = "fr-Global Decentralized Currency"
-  subtitle = "frBased on Blockchain Technology"
-  button_text = "fDownload"
+  title = "Global Decentralized Currency"
+  subtitle = "Based on Blockchain Technology"
 
-[Languages.fr.Taxonomies]
-plaque = "plaques"
-
+# Navigation
 [Languages.fr.navigation]
-brand = "litecoin"
-about = "About"
+  brand = "litecoin"
+  download = "TÉLÉCHARGER"
+  about = "About"
+  team = "Team"
+  contact = "Contact"
 
+  # prepended links
+  #[[menu.prepend]]
+  #  url = "http://gohugo.io"
+  #  name = "Hugo"
+  #  weight = 10
+
+  # postpended links
+  [[menu.postpend]]
+    url = "https://litecointalk.io/"
+    name = "Forum"
+    weight = 10
+
+
+# About section
 [Languages.fr.about]
-title = "Litecoin, c'est quoi ?"
-subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paiements instantanés, avec des coûts proches de zéro à quiconque dans le monde. Litecoin est un réseau de paiement mondial open source, qui est entièrement décentralisé sans autorités centrale. Les utilisateurs peuvent mainteant contrôler leurs propres finances, securisées par un systeme basé entierement sur des mathématiques. Par rapport à Bitcoin, les transactions Litecoin sans plus rapides à confirmer et ont une efficacité de stockage accrue. De part son utilisation par l'industrie, le volume d'échange et de liquidité sur les marchés d'échange, Litecoin est un moyen de commerce complémentaire à Bitcoin, qui a fait ses preuves."
+  enable = true
+  title = "Litecoin, c'est quoi ?"
+  subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paiements instantanés, avec des coûts proches de zéro à quiconque dans le monde. Litecoin est un réseau de paiement mondial open source, qui est entièrement décentralisé sans autorités centrale. Les utilisateurs peuvent mainteant contrôler leurs propres finances, securisées par un systeme basé entierement sur des mathématiques. Par rapport à Bitcoin, les transactions Litecoin sans plus rapides à confirmer et ont une efficacité de stockage accrue. De part son utilisation par l'industrie, le volume d'échange et de liquidité sur les marchés d'échange, Litecoin est un moyen de commerce complémentaire à Bitcoin, qui a fait ses preuves."
 
-[[Languages.fr.about.row]]
+  [[Languages.fr.about.row]]
+    [[Languages.fr.about.row.list]]
+      icon = "fa-group"
+      title = "Communauté"
+      description =  '<p class="text-no-margin text-left text-muted">Il y a plusieurs communautés Litecoin grandissantes où vous pouvez trouver de l&#39;aide. Vous pouvez visiter: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Les Forums Litecoin</a></li> <li><a href="http://www.reddit.com/r/litecoin">La Communauté Litecoin de Reddit</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Chercher des Utilisateurs sur Twitter</a></li> <li>Rejoindre sur le réseau <a href="http://freenode.net/" rel="nofollow">IRC de Freenode</a> sur les canaux <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (pour tous les utilisateurs) et <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (pour les développeurs)</li> </ul>'
 
-[[Languages.fr.about.row.list]]
-  icon = "fa-shopping-cart"
-  title = "Community"
-  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    [[Languages.fr.about.row.list]]
+      icon = "fa-laptop"
+      title = "Ressources"
+      description = 'Des informations générales ainsi qu&#39;une liste des sites et des bourses (marchés) acceptant Litecoin sont disponibles dans le site collaboratif <a href="http://litecoin.info">(wiki) de Litecoin</a>. <br> Des statistiques actualisées du réseau Litecoin sont affichées à <a href="http://ltc.block-explorer.com/charts">LiteCoin Block Explorer Charts</a>. <br> Le code source de Litecoin et des projets similaires sont disponibles sur <a href="https://github.com/litecoin-project">GitHub</a>.'
 
-[[Languages.fr.about.row.list]]
-  icon = "fa-laptop"
-  title = "Resources"
-  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    [[Languages.fr.about.row.list]]
+      icon = "fa-heart"
+      title = "Logiciel Open Source"
+      description = "Litecoin est un projet de logiciel open source publié sous la licence MIT/X11 qui vous donne le pouvoir d'exécuter, modifier et copier le logiciel et à distribuer, à votre choix, des copies modifiées du logiciel. Le logiciel est publié dans un processus transparent qui permet la vérification indépendante des binaires et le code source correspondant."
 
-[[Languages.fr.about.row.list]]
-  icon = "fa-lock"
-  title = "Wallet Encryption"
-  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  [[Languages.fr.about.row]]
+    [[Languages.fr.about.row.list]]
+      icon = "fa-link"
+      title = "Registre des transactions"
+      description = "Le blockchain Litecoin est capable de gérer un plus grand volume de transactions que son homologue Bitcoin. Grâce à une génération de blocs plus fréquente, le réseau permet plus de transactions sans avoir à modifier le logiciel. <br />Par conséquent, les marchands ont des délais de confirmation plus courts, et ils peuvent choisir d'attendre plus longtemps pour plus de confirmations avant de livrer les produits plus chers."
 
-# SPANISH _____________________________
+    [[Languages.fr.about.row.list]]
+      icon = "fa-lock"
+      title = "Cryptage du Portefeuille"
+      description = "Le cryptage du portefeuille vous permet de sécuriser vos clés privés dans le portefeuille, en vous autorisant à suivre les transactions et le solde de votre compte mais en exigeant un mot de passe pour pouvoir dépenser vos litecoins. <br />Cela sert à vous protéger contre les virus et chevaux de Troie, mais c'est aussi utile comme étape de vérification supplémentaire avant de procéder au paiement."
 
-[Languages.sp]
-  lang = "Spanish"
-  weight = 2
+    [[Languages.fr.about.row.list]]
+      icon = "fa-money"
+      title = "Récompense de Minage"
+      description = "Les mineurs sont au départ récompensés de 25 coins par bloc. Le nombre de coins générés est divisé par deux tous les 4 ans (840,000 blocs). <br />Le réseau Litecoin devrait donc produire environ 4 fois plus d'unités que Bitcoin, soit environ 84 millions de litecoins."
 
-  title = "Litecoin - sp"
+# download section
+[Languages.fr.download]
+  enable = true
+  title = "TÉLÉCHARGER"
+  gpg = "GPG Signatures"
+  download = "TÉLÉCHARGER"
+  source = "Source"
+  releaseNotes = "Notes de Version"
+  upgradeNotes = "Notes de mise à jour"
+
+  windows = "pour Windows"
+  mac = "pour Mac OS X"
+  linux = "pour GNU/Linux"
+  android = "Litecoin sur Android"
+  blackberry = "Litecoin sur Blackberry"
+  electrum = "Electrum Litecoin"
+
+
+# Contact section
+[Languages.fr.contact]
+  enable = true
+  title = "Contact us"
+  subtitle  = "Vous pouvez contacter l'équipe de développement de Litecoin à <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>."
+
+
+# Footer section
+[Languages.fr.footer]
+  enable = true
+  copyright = "Copyright &copy; 2011-2016 Litecoin Project. <br />Tous droits réservés."
+
+  [[Languages.fr.footer.quicklinks]]
+    text = "Privacy Policy"
+    link = "#"
+
+  [[Languages.fr.footer.quicklinks]]
+    text = "Terms of Use"
+    link = "#"
+
 
 
 # CHINESE _____________________________
@@ -283,7 +343,6 @@ title = "莱特币 - 开源的P2P数字货币"
 [Languages.cn.download]
   enable = true
   title = "下载"
-  subtitle = "<a href='http://blog.litecoin.org/2015/12/litecoin-core-v01040.html'>Release Notes</a> | <a href='https://litecoin.info/Upgrading_Litecoin'>Upgrade Notes</a>"
   gpg = "GPG Signatures"
   download = "下载"
   source = "开源项目"

@@ -9,14 +9,13 @@
         <i class="fa fa-group fa-stack-1x  if-os-known " style="margin-left:-70px"></i>
         {{ with .Site.Params.download.download }}{{ . | markdownify }}{{ end }}
         <div class="btn-small detect"
-
-          data-mac="{{ .Site.Params.download.mac }}"
-          data-windows="{{ .Site.Params.download.windows }}"
-          data-linux="{{ .Site.Params.download.linux }}"
-          data-android="{{ .Site.Params.download.android }}"
-        >
-        </div>
+          data-windows="{{$.Site.Data.software.aWindows.version}} {{ .Site.Params.download.windows }}"
+          data-mac="{{$.Site.Data.software.bMac.version}} {{ .Site.Params.download.mac }}"
+          data-linux="{{$.Site.Data.software.cLinux.version}} {{ .Site.Params.download.linux }}"
+          data-android="{{$.Site.Data.software.dAndroid.version}} {{ .Site.Params.download.android }}"
+        ></div>
       </a>
+
       <p>
         <a href="#download" class="page-scroll  ">{{ .Site.Params.download.gpg }}</a> | <a href="#download" class="page-scroll  ">Other Versions</a>
       </p>

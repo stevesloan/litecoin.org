@@ -87,7 +87,6 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
     subtitle = "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Litecoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
 
     [[Languages.en.about.row]]
-
       [[Languages.en.about.row.list]]
         icon = "fa-group"
         title = "Community"
@@ -102,7 +101,8 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
         icon = "fa-heart"
         title = "Open Source Software"
         description = "Litecoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code."
-[[Languages.en.about.row]]
+
+    [[Languages.en.about.row]]
       [[Languages.en.about.row.list]]
         icon = "fa-link"
         title = "Blockchain"
@@ -126,7 +126,6 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
     gpg = "GPG Signatures"
     download = "Download"
     source = "Source"
-    walletfor = "Wallet for"
     releaseNotes = "Release Notes"
     upgradeNotes = "Upgrade Notes"
 
@@ -233,12 +232,6 @@ title = "莱特币 - 开源的P2P数字货币"
   team = "Team"
   contact = "Contact"
 
-  # prepended links
-  #[[menu.prepend]]
-  #  url = "http://gohugo.io"
-  #  name = "Hugo"
-  #  weight = 10
-
   # postpended links
   [[menu.postpend]]
     url = "https://litecointalk.io/"
@@ -293,15 +286,14 @@ title = "莱特币 - 开源的P2P数字货币"
   gpg = "GPG Signatures"
   download = "下载"
   source = "开源项目"
-  walletfor = "Wallet for"
   releaseNotes = "#发行说明"
   upgradeNotes = "升级说明"
 
-  windows = "for Windows"
-  mac = "for Mac OS X"
-  linux = "for Linux"
-  android = "Litecoin for Android"
-  blackberry = "Litecoin for Blackberry"
+  windows = "供Windows用户使用"
+  mac = "供Mac OS X用户使用"
+  linux = "供GNU/Linux用户使用"
+  android = "莱特币安卓版"
+  blackberry = "莱特币黑莓版"
   electrum = "Electrum Litecoin"
 
 

@@ -15,7 +15,7 @@
               <div>
                 {{ if .isCompiled }}{{ $.Site.Params.download.download }}{{else}}{{ $.Site.Params.download.source }}{{ end }}
               </div>
-              <div class="btn-small">{{ .line1 | markdownify }}</div>
+              <div class="btn-small">{{ with .version}}{{ . | markdownify }}{{ end }}</div>
               <div class="btn-small">
                 {{ if .isWindows }}{{ $.Site.Params.download.windows }}{{ end }}
                 {{ if .isMac }}{{ $.Site.Params.download.mac }}{{ end }}

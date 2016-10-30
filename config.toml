@@ -89,7 +89,7 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
       [[Languages.en.about.row.list]]
         icon = "fa-group"
         title = "Community"
-        description =  '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
+        description =  '<p class="text-no-margin text-left text-muted">Find support across a growing number of Litecoin communities:</p><ul class="text-muted text-left "> <li><a href="https://litecointalk.io">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Search for Users on Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for general users) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for developers).</li> </ul>'
 
       [[Languages.en.about.row.list]]
         icon = "fa-laptop"
@@ -203,7 +203,7 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
     [[Languages.fr.about.row.list]]
       icon = "fa-group"
       title = "Communauté"
-      description =  '<p class="text-no-margin text-left text-muted">Il y a plusieurs communautés Litecoin grandissantes où vous pouvez trouver de l&#39;aide. Vous pouvez visiter: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Les Forums Litecoin</a></li> <li><a href="http://www.reddit.com/r/litecoin">La Communauté Litecoin de Reddit</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Chercher des Utilisateurs sur Twitter</a></li> <li>Rejoindre sur le réseau <a href="http://freenode.net/" rel="nofollow">IRC de Freenode</a> sur les canaux <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (pour tous les utilisateurs) et <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (pour les développeurs)</li> </ul>'
+      description =  '<p class="text-no-margin text-left text-muted">Il y a plusieurs communautés Litecoin grandissantes où vous pouvez trouver de l&#39;aide. Vous pouvez visiter: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.io">Les Forums Litecoin</a></li> <li><a href="http://www.reddit.com/r/litecoin">La Communauté Litecoin de Reddit</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Chercher des Utilisateurs sur Twitter</a></li> <li>Rejoindre sur le réseau <a href="http://freenode.net/" rel="nofollow">IRC de Freenode</a> sur les canaux <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (pour tous les utilisateurs) et <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (pour les développeurs)</li> </ul>'
 
     [[Languages.fr.about.row.list]]
       icon = "fa-laptop"
@@ -311,7 +311,7 @@ title = "莱特币 - 开源的P2P数字货币"
     [[Languages.cn.about.row.list]]
       icon = "fa-group"
       title = "社区"
-      description =  '<p class="text-no-margin text-left text-muted">您可以在日益壮大的莱特币社区中寻求技术支持以及交流分享，例如： </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">莱特币论坛</a></li> <li><a href="http://www.reddit.com/r/litecoin">莱特币Reddit社区</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">搜索推特上的用户</a></li> <li>加入<a href="http://freenode.net/" rel="nofollow">IRC 即时聊天网络</a>网络频道<a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#莱特币即时交流</a>(面向普通的交流用户)，<a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#莱特币-dev</a>(面向开发者交流)</li> </ul>'
+      description =  '<p class="text-no-margin text-left text-muted">您可以在日益壮大的莱特币社区中寻求技术支持以及交流分享，例如： </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.io">莱特币论坛</a></li> <li><a href="http://www.reddit.com/r/litecoin">莱特币Reddit社区</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">搜索推特上的用户</a></li> <li>加入<a href="http://freenode.net/" rel="nofollow">IRC 即时聊天网络</a>网络频道<a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#莱特币即时交流</a>(面向普通的交流用户)，<a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#莱特币-dev</a>(面向开发者交流)</li> </ul>'
 
     [[Languages.cn.about.row.list]]
       icon = "fa-laptop"

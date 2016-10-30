@@ -5,14 +5,15 @@
     <div class="intro-text">
       <div class="intro-heading">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
       <div class="intro-lead-in">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-      <a href="#download" id="heroDownload" class="page-scroll btn btn-xl btn-spacer">
-        <i class="fa fa-group fa-stack-1x  if-os-known " style="margin-left:-70px"></i>
+      <a href="#download" id="heroDownload" class="text-left page-scroll btn btn-hero btn-xl btn-spacer">
+
+        <i class="fa fa-group  if-os-known distro-graphic " ></i>
         {{ with .Site.Params.download.download }}{{ . | markdownify }}{{ end }}
         <div class="btn-small detect"
-          data-windows="{{$.Site.Data.software.aWindows.version}} {{ .Site.Params.download.windows }}"
-          data-mac="{{$.Site.Data.software.bMac.version}} {{ .Site.Params.download.mac }}"
-          data-linux="{{$.Site.Data.software.cLinux.version}} {{ .Site.Params.download.linux }}"
-          data-android="{{$.Site.Data.software.dAndroid.version}} {{ .Site.Params.download.android }}"
+          data-windows="{{$.Site.Data.software.aWindows.version}}<br /> {{ .Site.Params.download.windows }}"
+          data-mac="{{$.Site.Data.software.bMac.version}}<br /> {{ .Site.Params.download.mac }}"
+          data-linux="{{$.Site.Data.software.cLinux.version}}<br /> {{ .Site.Params.download.linux }}"
+          data-android="{{$.Site.Data.software.dAndroid.version}}<br /> {{ .Site.Params.download.android }}"
         ></div>
       </a>
 

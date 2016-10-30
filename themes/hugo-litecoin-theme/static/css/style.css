@@ -60,6 +60,16 @@ h6 {
   text-transform: uppercase;
   font-weight: 700; }
 
+.fa.distro-graphic {
+  padding-right: 0.8em;
+  line-height: 1.5em;
+  font-size: 2.5em;
+  float: left;
+  opacity: .7; }
+
+.btn-hero .btn-small {
+  padding-left: 4em; }
+
 .btn-primary {
   border-color: #88CBF5;
   text-transform: uppercase;

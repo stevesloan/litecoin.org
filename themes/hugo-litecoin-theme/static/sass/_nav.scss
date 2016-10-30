@@ -7,6 +7,7 @@
   border-color: $f-nav;
   margin-top:0.5em;
   margin-left:1em;
+
   @media(min-width:768px) {
     color:white;
     border-color: white;
@@ -14,12 +15,18 @@
   }
 }
 
+.navbar-shrink .dropdown-toggle {
+  background-color: white;
+}
+
 .dropdown-menu {
-  left:inherit;
-  right:0;
+  position: absolute;
+  top:2.8em;
+  right:1em;
+  left:auto;
 
   @media(min-width:768px) {
-
+    right:0;
   }
 }
 

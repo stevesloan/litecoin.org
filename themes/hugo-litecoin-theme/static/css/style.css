@@ -183,9 +183,17 @@ fieldset[disabled] .btn-xl.active {
       color: white;
       border-color: white; } }
 
+.navbar-shrink .dropdown-toggle {
+  background-color: white; }
+
 .dropdown-menu {
-  left: inherit;
-  right: 0; }
+  position: absolute;
+  top: 2.8em;
+  right: 1em;
+  left: auto; }
+  @media (min-width: 768px) {
+    .dropdown-menu {
+      right: 0; } }
 
 .navbar-shrink .dropdown-toggle {
   border-color: #888;
@@ -282,6 +290,9 @@ body {
   overflow-x: hidden;
   webkit-tap-highlight-color: #88CBF5;
   color: #222; }
+
+.relative {
+  position: relative; }
 
 .spacer {
   padding-bottom: 100px; }

@@ -15,9 +15,10 @@
 
 
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse relative" id="bs-example-navbar-collapse-1">
+
       {{ if .IsTranslated }}
-      
+
       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
       {{ .Site.Params.lang }} <span class="caret"></span>
       </button>

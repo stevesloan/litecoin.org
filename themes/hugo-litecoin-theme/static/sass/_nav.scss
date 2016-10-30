@@ -1,25 +1,25 @@
-.dropdown-menu {
-  position:relative;
-  top:auto;
-  left:auto;
-
-  @media(min-width:768px) {
-    float:right;
-  }
-}
-
 .dropdown-toggle {
   background:none;
   color:$f-nav;
-
-  float:left;
+  position:relative;
+  float:right;
+  z-index: 5;
   border-color: $f-nav;
-  margin-top:-1px;
-  margin-right:1em;
+  margin-top:0.5em;
+  margin-left:1em;
   @media(min-width:768px) {
     color:white;
     border-color: white;
-    float:right;
+
+  }
+}
+
+.dropdown-menu {
+  left:inherit;
+  right:0;
+
+  @media(min-width:768px) {
+
   }
 }
 
@@ -29,7 +29,9 @@ color:$f-nav;
 
 }
 
-
+.navbar-right {
+  margin-right: 0px;
+}
 
 .navbar-default {
   border-color: transparent;

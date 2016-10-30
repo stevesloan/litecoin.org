@@ -214,6 +214,7 @@ subtitle = "Litecoin est une devise Internet peer-to-peer, qui permet des paieme
 # CHINESE _____________________________
 
 [Languages.cn]
+languageCode = "zh-cn"
 lang = "中文"
 title = "莱特币 - 开源的P2P数字货币"
   weight = 1

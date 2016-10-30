@@ -169,30 +169,30 @@ fieldset[disabled] .btn-xl.active {
 .btn:active:focus {
   outline: 0; }
 
-.dropdown-menu {
-  position: relative;
-  top: auto;
-  left: auto; }
-  @media (min-width: 768px) {
-    .dropdown-menu {
-      float: right; } }
-
 .dropdown-toggle {
   background: none;
   color: #888;
-  float: left;
+  position: relative;
+  float: right;
+  z-index: 5;
   border-color: #888;
-  margin-top: -1px;
-  margin-right: 1em; }
+  margin-top: 0.5em;
+  margin-left: 1em; }
   @media (min-width: 768px) {
     .dropdown-toggle {
       color: white;
-      border-color: white;
-      float: right; } }
+      border-color: white; } }
+
+.dropdown-menu {
+  left: inherit;
+  right: 0; }
 
 .navbar-shrink .dropdown-toggle {
   border-color: #888;
   color: #888; }
+
+.navbar-right {
+  margin-right: 0px; }
 
 .navbar-default {
   border-color: transparent;

@@ -16,6 +16,19 @@
 
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      {{ if .IsTranslated }}
+      
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
+      {{ .Site.Params.lang }} <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+          {{ range .Translations }}
+          <li>
+              <a href="{{ .Permalink }}">{{ .Site.Params.lang }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+          </li>
+          {{ end}}
+      </ul>
+      {{ end }}
 
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
@@ -53,19 +66,7 @@
         {{ end }}
       </ul>
 
-      {{ if .IsTranslated }}
-      <h4>{{ i18n "translations" }}</h4>
-      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
-      {{ .Site.Params.lang }} <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-          {{ range .Translations }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Site.Params.lang }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
-          </li>
-          {{ end}}
-      </ul>
-      {{ end }}
+
 
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}

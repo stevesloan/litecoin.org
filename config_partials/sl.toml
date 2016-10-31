@@ -3,7 +3,7 @@
     lang = "Slovene"
     LanguageCode = "sl"
     title = "Litecoin - Odprto kodna P2P digitalna valuta"
-    weight = 1
+    weight = 20
 
   # Hero section
   [Languages.sl.hero]

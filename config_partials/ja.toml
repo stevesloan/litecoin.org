@@ -3,7 +3,7 @@
     lang = "日本語"
     LanguageCode = "ja"
     title = "Litecoin - オープンソースP2Pデジタル通貨"
-    weight = 1
+    weight = 13
 
   # Hero section
   [Languages.ja.hero]

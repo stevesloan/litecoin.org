@@ -3,7 +3,7 @@
     lang = "Italiano"
     LanguageCode = "it"
     title = "Litecoin - Valuta digitale P2P Open source"
-    weight = 1
+    weight = 12
 
   # Hero section
   [Languages.it.hero]

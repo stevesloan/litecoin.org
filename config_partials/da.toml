@@ -3,7 +3,7 @@
     lang = "Dansk"
     LanguageCode = "da"
     title = "Litecoin - Open source P2P digital valuta"
-    weight = 1
+    weight = 4
 
   # Hero section
   [Languages.da.hero]

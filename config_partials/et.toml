@@ -3,7 +3,7 @@
     lang = "Eesti"
     LanguageCode = "et"
     title = "Litecoin - avatud lähtekoodiga P2P digitaalne valuuta"
-    weight = 1
+    weight = 9
 
   # Hero section
   [Languages.et.hero]

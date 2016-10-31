@@ -3,7 +3,7 @@
     lang = "Nederlands"
     LanguageCode = "nl"
     title = "Litecoin - Open source P2P digitale valuta"
-    weight = 1
+    weight = 15
 
   # Hero section
   [Languages.nl.hero]

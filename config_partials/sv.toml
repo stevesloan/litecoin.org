@@ -3,7 +3,7 @@
     lang = "Svenska"
     LanguageCode = "sv"
     title = "Litecoin - Öppen källkod P2P digitalvaluta"
-    weight = 1
+    weight = 21
 
   # Hero section
   [Languages.sv.hero]

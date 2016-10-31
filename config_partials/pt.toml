@@ -3,7 +3,7 @@
     lang = "Português"
     LanguageCode = "pt"
     title = "Litecoin - A moeda digital"
-    weight = 1
+    weight = 18
 
   # Hero section
   [Languages.pt.hero]

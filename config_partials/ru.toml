@@ -3,7 +3,7 @@
     lang = "Русский"
     LanguageCode = "ru"
     title = "Litecoin - децентрализованная криптовалюта с открытым исходным кодом"
-    weight = 1
+    weight = 19
 
   # Hero section
   [Languages.ru.hero]

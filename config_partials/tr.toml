@@ -3,7 +3,7 @@
     lang = "Türkçe"
     LanguageCode = "tr"
     title = "Litecoin - Açık kaynaklı P2P dijital para birimi"
-    weight = 1
+    weight = 22
 
   # Hero section
   [Languages.tr.hero]

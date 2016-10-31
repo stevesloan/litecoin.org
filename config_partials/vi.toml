@@ -3,7 +3,7 @@
     lang = "Việt"
     LanguageCode = "vi"
     title = "Litecoin - Tiền tệ kĩ thuật số dựa trên mã nguồn mở P2P"
-    weight = 1
+    weight = 23
 
   # Hero section
   [Languages.vi.hero]

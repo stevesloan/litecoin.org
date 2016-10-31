@@ -3,7 +3,7 @@
     lang = "Español"
     LanguageCode = "es"
     title = "Litecoin - La moneda electrónica"
-    weight = 1
+    weight = 8
 
   # Hero section
   [Languages.es.hero]

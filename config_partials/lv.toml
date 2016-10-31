@@ -3,7 +3,7 @@
     lang = "Latviešu"
     LanguageCode = "lv"
     title = "Litecoin - Atklātā pirmkoda P2P digitālā valūta"
-    weight = 1
+    weight = 14
 
   # Hero section
   [Languages.lv.hero]

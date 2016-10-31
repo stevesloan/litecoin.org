@@ -3,7 +3,7 @@
     lang = "Suomi"
     LanguageCode = "fi"
     title = "Litecoin - Vapaan lähdekoodin P2P digitaalinen valuutta"
-    weight = 1
+    weight = 10
 
   # Hero section
   [Languages.fi.hero]

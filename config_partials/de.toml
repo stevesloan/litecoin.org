@@ -3,7 +3,7 @@
     lang = "Deutsch"
     LanguageCode = "de"
     title = "Litecoin - Quelloffene, digitale P2P-Währung"
-    weight = 1
+    weight = 5
 
   # Hero section
   [Languages.de.hero]

@@ -3,7 +3,7 @@
     lang = "Norsk"
     LanguageCode = "no"
     title = "Litecoin - åpen kildekode P2P digital valuta"
-    weight = 1
+    weight = 16
 
   # Hero section
   [Languages.no.hero]

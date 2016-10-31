@@ -3,7 +3,7 @@
     lang = "Polski"
     LanguageCode = "pl"
     title = "Litecoin - cyfrowa waluta P2P o otwartym kodzie źródłowym"
-    weight = 1
+    weight = 17
 
   # Hero section
   [Languages.pl.hero]

@@ -20,7 +20,7 @@
       {{ .Site.Params.lang }} <span class="caret"></span>
       </button>
       <ul class="dropdown-menu">
-          {{ range .Translations }}
+          {{ range sort .Translations }}
           <li>
               <a href="{{ .Permalink }}">{{ .Site.Params.lang }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
           </li>

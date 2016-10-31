@@ -3,7 +3,7 @@
     lang = "Česky"
     LanguageCode = "cs"
     title = "Litecoin - Open source P2P digitální měna"
-    weight = 1
+    weight = 3
 
   # Hero section
   [Languages.cs.hero]

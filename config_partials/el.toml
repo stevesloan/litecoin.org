@@ -3,7 +3,7 @@
     lang = "Ελληνικά"
     LanguageCode = "el"
     title = "Litecoin - Ψηφιακό Νόμισμα P2P Ανοικτού Κώδικα"
-    weight = 1
+    weight = 6
 
   # Hero section
   [Languages.el.hero]

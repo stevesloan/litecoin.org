@@ -4,7 +4,7 @@
   lang = "Français"
   LanguageCode = "fr"
   title = "Litecoin - Monnaie électronique décentralisée et open source"
-  weight = 1
+  weight = 11
 
 # Hero section
 [Languages.fr.hero]

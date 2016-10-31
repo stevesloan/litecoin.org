@@ -36,6 +36,10 @@
   }
 }
 
+
+.navbar {
+  will-change: transform;
+}
 .navbar-shrink .dropdown-toggle {
 border-color: $f-nav;
 color:$f-nav;

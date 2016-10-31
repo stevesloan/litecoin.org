@@ -212,6 +212,9 @@ fieldset[disabled] .btn-xl.active {
     float: left;
     width: 50%; }
 
+.navbar {
+  will-change: transform; }
+
 .navbar-shrink .dropdown-toggle {
   border-color: #888;
   color: #888; }
@@ -735,7 +738,7 @@ header {
   color: #fff;
   background-attachment: scroll;
   background-image: url(../img/header-bg.jpg);
-  background-position: center center;
+  background-position: 60% center;
   background-repeat: none;
   background-size: cover;
   -o-background-size: cover; }

@@ -5,13 +5,15 @@
   float:left;
   opacity:.7;
 }
-.btn-hero  {
-  .distro-graphic {
-    // line-height:1em;
-  }
+.os-known.btn-hero  {
   .btn-small {
     padding-left:4em;
   }
+}
+
+.fa.if-os-known {
+  display:none;
+
 }
 
 

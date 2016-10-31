@@ -67,8 +67,11 @@ h6 {
   float: left;
   opacity: .7; }
 
-.btn-hero .btn-small {
+.os-known.btn-hero .btn-small {
   padding-left: 4em; }
+
+.fa.if-os-known {
+  display: none; }
 
 .btn-primary {
   border-color: #88CBF5;
@@ -200,10 +203,14 @@ fieldset[disabled] .btn-xl.active {
   position: absolute;
   top: 2.8em;
   right: 1em;
-  left: auto; }
+  left: auto;
+  max-width: 20em; }
   @media (min-width: 768px) {
     .dropdown-menu {
       right: 0; } }
+  .dropdown-menu li {
+    float: left;
+    width: 50%; }
 
 .navbar-shrink .dropdown-toggle {
   border-color: #888;
@@ -234,7 +241,10 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default .navbar-brand.active {
     color: #fff; }
   .navbar-default .navbar-collapse {
-    border-color: rgba(255, 255, 255, 0.02); }
+    border-color: rgba(255, 255, 255, 0.02);
+    overflow: visible; }
+    .navbar-default .navbar-collapse.collapsing {
+      overflow: hidden; }
   .navbar-default .navbar-toggle {
     border-color: #88CBF5;
     background-color: #88CBF5; }

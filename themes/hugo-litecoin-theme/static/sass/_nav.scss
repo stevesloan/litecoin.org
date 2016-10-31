@@ -24,9 +24,15 @@
   top:2.8em;
   right:1em;
   left:auto;
+  max-width: 20em;
 
   @media(min-width:768px) {
     right:0;
+  }
+
+  li {
+    float:left;
+    width:50%;
   }
 }
 
@@ -82,7 +88,12 @@ color:$f-nav;
 
   .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+    overflow: visible;
+    &.collapsing {
+      overflow: hidden;
+    }
   }
+
 
   .navbar-toggle {
     border-color: $c-primary;

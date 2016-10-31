@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.lv]
+    lang = "Latviešu"
+    LanguageCode = "lv"
+    title = "Litecoin - Atklātā pirmkoda P2P digitālā valūta"
+    weight = 1
+
+  # Hero section
+  [Languages.lv.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.lv.navigation]
+    brand = "litecoin"
+    download = "LEJUPIELĀDĒT"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.lv.about]
+    enable = true
+    title = "Kas ir Litecoin?"
+    subtitle = "Litecoin ir peer-to-peer interneta valūta, kas sniedz tūlītēju, gandrīz nulles izmaksu maksājumus ikvienam visā pasaulē. Litecoin ir atvērtā pirmkoda, kopmaksājumu tīkls, kas ir pilnībā decentralizēts bez centrālajām iestādēm. Matemātiski algoritmi sargā tīklu un pilnvaro indivīdus kontrolēt savas finanses. Litecoin nodrošina ātrāku darījuma apstiprinājuma laiku un uzlabotu uzglabāšanas efektivitāti nekā vadošās valūtas kuras balstītas uz matemātikas bāzes. Ar ievērojamu nozares atbalstu, tirdzniecības apjomu un likviditāti ir pierādījies, ka Litecoin papildina Bitcoin tirdzniecības vidē."
+
+    [[Languages.lv.about.row]]
+      [[Languages.lv.about.row.list]]
+        icon = "fa-group"
+        title = "Kopiena"
+        description =  '<p class="text-no-margin text-left text-muted">Atrodi atbalstu pie Litecoin kopienām kuru skaits palielinās: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Meklēt lietotājus Twitterī</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (lietotājiem) un <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (izstrādātājiem).</li> </ul>'
+
+      [[Languages.lv.about.row.list]]
+        icon = "fa-laptop"
+        title = "Resursi"
+        description = 'Atrodi vispārīgu informāciju, kā arī sarakstu ar pakalpojumiem un apmaiņas punktiem kuri atbalsta Litecoin <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Atjauninātu tīkla statistiku var atrast <a href="http://ltc.block-explorer.com/charts">Litecoin bloku pētnieku tabulās</a>. <br> Litecoin Core pirmkods un saistītie projekti ir pieejami <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.lv.about.row.list]]
+        icon = "fa-heart"
+        title = "Atvērtā pirmkoda programmatūra"
+        description = "Litecoin ir atvērtā koda programmatūras projekts kurš ir izlaists zem MIT/X11 licences, kas dod jums tiesības palaist, modificēt, un kopēt programmatūru un izplatīt, pēc jūsu izvēles, modificētas programmatūras kopijas. Programma ir izlaista pārredzamā procesā, kas ļauj veikt neatkarīgu pārbaudi bināros failos un to attiecīgajā pirmkodā."
+
+    [[Languages.lv.about.row]]
+      [[Languages.lv.about.row.list]]
+        icon = "fa-link"
+        title = "Blokuķēde"
+        description = "Litecoin blokuķēde spēj uzturēt lielāku darījumu apjomu nekā tās līdziniece - Bitcoin. Sakarā ar biežāku bloku ģenerāciju tīkls atbalsta vairākus darījumus, bez nepieciešamības mainīt programmatūru nākotnē. <br />Tā rezultātā, tirgotāji ātrāk saņem apstiprinājumu kamēr joprojām ir iespēja gaidīt pēc vairākiem apstiprinājumiem, tirgojot lielāku biļešu vienības."
+
+      [[Languages.lv.about.row.list]]
+        icon = "fa-lock"
+        title = "Maka šifrēšana"
+        description = "Maka šifrēšana ļauj Tev pasargāt savu maku, lai Tu varētu skatīt transakcijas un konta atlikumu, bet būs nepieciešams ievadīt paroli pirms varēsi sāk tērēt savus litecoins.<br />Šifrēšana nodrošina aizsardzību pret maku zogošiem vīrusiem un trojaniem, kā arī tiek veikta atbilstības pārbaude pirms maksājuma nosūtīšanas."
+
+      [[Languages.lv.about.row.list]]
+        icon = "fa-money"
+        title = "Rakšanas atlīdzība"
+        description = "Racēji pašlaik tiek atalgoti ar 25 jauniem litecoin par katru bloku, summa, kas samazinās uz pusi aptuveni ik pēc 4 gadiem (840,000 bloki). <br />Tāpēc Litecoin tīkls ir plānots, lai ražotu 84 miljonus litecoin, kas ir 4 reizes vairāk valūtas vienībās, kā Bitcoin."
+
+  # download section
+  [Languages.lv.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "LEJUPIELĀDĒT"
+    source = "PIRMKODS"
+    releaseNotes = "Laidiena piezīmes"
+    upgradeNotes = "Atjaunināšanas piezīmes"
+
+    windows = "Windows"
+    mac = "Mac OS X"
+    linux = "Linux"
+    android = "Litecoin priekš Android"
+    blackberry = "Litecoin priekš Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.lv.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Tu vari sazināties ar Litecoin projekta izstrādes komandu <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+
+  # Footer section
+  [Languages.lv.footer]
+    enable = true
+    copyright = 'Autortiesības &copy; 2011-2016 Litecoin Projekts. Visas tiesības rezervētas.'

@@ -1,0 +1,93 @@
+# ENGLISH _____________________________
+  [Languages.fi]
+    lang = "Suomi"
+    LanguageCode = "fi"
+    title = "Litecoin - Vapaan lähdekoodin P2P digitaalinen valuutta"
+    weight = 1
+
+  # Hero section
+  [Languages.fi.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.fi.navigation]
+    brand = "litecoin"
+    download = "Lataa"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.fi.about]
+    enable = true
+    title = "Mikä on Litecoin?"
+    subtitle = "Litecoin on peer-to-peer Internet-valuutta, joka mahdollistaa välittömän, lähes kuluvapaan maksamisen kenelle tahansa maailmassa. Litecoin on vapaan lähdekoodin maailmanlaajuinen maksuverkko joka on täysin hajautettu ja toimii ilman keskuhallintoa. Matematiikka turvaa verkkoa ja valtuuttaa yksilöitä hallitsemaan omaa rahatalouttaan. Litecoinin ominaisuudet sisältävät nopeamman rahansiirron varmistuksen ja parannellun tiedon varastointitehokkuuden kuin johtava matematiikkaan perustuva valuutta. Toimialojen merkittävän tuen, vaihtovoluumin ja likviditeetin ansiosta Litecoin on todistettavasti kaupan vaihdon väline Bitcoinin lisänä."
+
+    [[Languages.fi.about.row]]
+      [[Languages.fi.about.row.list]]
+        icon = "fa-group"
+        title = "Yhteisö"
+        description =  '<p class="text-no-margin text-left text-muted">Tukea voi hakea aina kasvavista yhteisöistä: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Etsi käyttäjiä Twitter:ssä</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> verkon kanavilla <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (peruskäyttäjille) ja <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (kehittäjille).</li> </ul>'
+
+      [[Languages.fi.about.row.list]]
+        icon = "fa-laptop"
+        title = "Resurssit"
+        description = 'Yleistä tietoa, palveluja ja vaihtopaikkoja löytyy <a href="http://litecoin.info">Litecoin Wiki</a>:sta. <br> Päivitetyt verkkotilastot löytyy <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Litecoin Core lähdekoodi ja muut projektit löytyy <a href="https://github.com/litecoin-project">GitHub</a>:sta.'
+
+      [[Languages.fi.about.row.list]]
+        icon = "fa-heart"
+        title = "Vapaan lähdekoodin ohjelma"
+        description = "Litecoin on julkaistu vapaan lähdekoodin ohjelmistoprojektina MIT/X11-lisenssillä, joka antaa oikeuden ajaa, muokata ja kopioida ohjelmaa ja levittää muokattuja kopioita ohjelmasta. Ohjelma julkaistaan läpinäkyvällä prosessilla joka mahdollistaa ohjelmakoodin ja lähdekoodin riippumattoman varmistuksen."
+
+    [[Languages.fi.about.row]]
+      [[Languages.fi.about.row.list]]
+        icon = "fa-link"
+        title = "Lohkoketju"
+        description = "Litecoin lohkoketju kykenee hoitamaan suuremman rahansiirtovoluumin kuin vastaava Bitcoin lohkoketju. Useammin toistuvan lohkon luomisen ansiosta verkko tukee enemmän rahansiirtoja ilman että ohjelmaa tarvitsee muokata tulevaisuudessa. <br />Tästä johtuen kauppiaat saavat nopeamman varmistusajan, mutta pystyvät odottamaan lisävarmistuksia kalliiden myyntiartikkelien kanssa."
+
+      [[Languages.fi.about.row.list]]
+        icon = "fa-lock"
+        title = "Lompakon salaus"
+        description = "Lompakon salaus mahdollistaa lompakon turvaamisen niin että voit seurata rahansiirtoja ja tilisi saldoa, mutta rahan lähettämisessä kysytään salasanaa ennenkuin litecoineja voi kuluttaa. <br />Tämä suojaa lompakon varastamiseen luotuja viruksia ja troijalaisia vastaan ja toimii järkiperäisenä tarkistuksena ennen maksua."
+
+      [[Languages.fi.about.row.list]]
+        icon = "fa-money"
+        title = "Louhimisen palkkio"
+        description = "Louhijat palkitaan nykyään 25 uudella litecoinilla jokaista lohkoa kohden, kunnes palkkio puolittuu joka 4. vuosi (joka 840,000 lohko). <br />Litecoin-verkko on ajoitettu luomaan 84 miljoonaa litecoinia, joka on 4 kertaa enemmän kuin Bitcoinissa."
+
+  # download section
+  [Languages.fi.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "Lataa"
+    source = "LÄHDEKOODI"
+    releaseNotes = "Julkaisutiedot"
+    upgradeNotes = "Päivitystiedot"
+
+    windows = "Windows"
+    mac = "Mac OS X"
+    linux = "Linux"
+    android = "Litecoin for Android"
+    blackberry = "Litecoin for Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.fi.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "You can contact Litecoin project development team at <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>"
+
+
+  # Footer section
+  [Languages.fi.footer]
+    enable = true
+    copyright = "Copyright &copy; 2011-2016 Litecoin Project. All rights reserved."

@@ -34,12 +34,12 @@
     [[Languages.da.about.row]]
       [[Languages.da.about.row.list]]
         icon = "fa-group"
-        title = "Community"
+        title = "Menighed"
         description =  '<p class="text-no-margin text-left text-muted">Find støtte på tværs af et stigende antal Litecoin fællesskaber: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Søg efter brugere på Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> network channels <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for almindelige brugere) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for udviklere).</li> </ul>'
 
       [[Languages.da.about.row.list]]
         icon = "fa-laptop"
-        title = "Resources"
+        title = "Ressourcer"
         description = 'Find generel information samt en liste over tjenester og udvekslinger, der understøtter Litecoin på <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date netværk statistikker kan findes på <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Kildekode til Litecoin Core og relaterede projekter er tilgængelige på <a href="https://github.com/litecoin-project">GitHub</a>.'
 
       [[Languages.da.about.row.list]]
@@ -55,12 +55,12 @@
 
       [[Languages.da.about.row.list]]
         icon = "fa-lock"
-        title = "Wallet Encryption"
+        title = "Tegnebogs kryptering"
         description = "Tegnebogs krypteringen giver dig muligheden for at sikre din tegnebog, så du kan se transaktioner og saldoen på din konto, men er forpligtet til at indtaste din adgangskode før der kan bruges litecoins. <br />Dette giver beskyttelse mod tegnebogsrelaterede ”tyve virusser” og trojanske heste samt en tilregnelighed kontrol, før du sender betalinger."
 
       [[Languages.da.about.row.list]]
         icon = "fa-money"
-        title = "Mining Reward"
+        title = "Minedrift belønning"
         description = "Minearbejdere er i øjeblikket tildelt 25 nye litecoins per blok, et beløb, som bliver halveret omkring hver 4. år (hver 840.000 blokke). <br />Litecoin netværk er derfor planlagt til at producere 84 millioner litecoins, hvilket er 4 gange så mange mønter som Bitcoin."
 
   # download section

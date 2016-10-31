@@ -1,0 +1,93 @@
+# ENGLISH _____________________________
+  [Languages.ja]
+    lang = "日本語"
+    LanguageCode = "ja"
+    title = "Litecoin - オープンソースP2Pデジタル通貨"
+    weight = 1
+
+  # Hero section
+  [Languages.ja.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.ja.navigation]
+    brand = "litecoin"
+    download = "ダウンロード"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.ja.about]
+    enable = true
+    title = "Litecoinとは？"
+    subtitle = "Litecoin はピアツーピアのインターネット通貨になります。ほぼ無料に近い手数料で、世界中の誰にでも即座に支払いを行うことができます。中央集権型とは異なる完全分散型であり、オープンソースでグローバルな決済ネットワークとなります。数学によりネットワークの安全性を確保し、個々人による財政管理能力を高めています。主要な数学ベースの通貨と比べ、トランザクションの確認時間が短く、ストレージの効率性に優れているのが特長です。業界による多大な支持、取り引き量、流動資産などの実績を見てわかるように、Litecoin は Bitcoin を補完する商取引媒体となります。"
+
+    [[Languages.ja.about.row]]
+      [[Languages.ja.about.row.list]]
+        icon = "fa-group"
+        title = "コミュニティ"
+        description =  '<p class="text-no-margin text-left text-muted">随時拡大中のコミュニティーからサポートを受ける事ができます </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoinフォーラム</a></li> <li><a href="http://www.reddit.com/r/litecoin">Litecoin Redditコミュニティ</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Twitterでユーザーを検索</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRCのFreeNode</a>ネットワークチャンネル <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> （一般ユーザー向け）・ <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a>（開発者向け）</li> </ul>'
+
+      [[Languages.ja.about.row.list]]
+        icon = "fa-laptop"
+        title = "リソース"
+        description = 'Litecoinの一般情報、Litecoinをサポートしているサービスと取引所の一覧は、<a href="http://litecoin.info">Litecoin Wiki</a>で見つけることができます。 <br> 最新のネットワーク統計は、<a href="http://ltc.block-explorer.com/charts">Litecoinブロックエクスプローラーチャート</a>で見ることができます。 <br> <a href="https://github.com/litecoin-project">GitHub</a>で、Litecoin-Qtと関連プロジェクトのソースコードを見ることができます。'
+
+      [[Languages.ja.about.row.list]]
+        icon = "fa-heart"
+        title = "オープンソースソフトウェア"
+        description = "Litecoin は MIT/X11 ライセンスでリリースされているオープンソースソフトウェアプロジェクトです。MIT/X11 ライセンスにより、ユーザーはソフトウェアの実行、編集、コピー、また編集したコピーの配信も行うことができます。本ソフトウエアは透過的なプロセスでリリースされるため、バイナリーおよびそのソースコードの独立検証が可能です。"
+
+    [[Languages.ja.about.row]]
+      [[Languages.ja.about.row.list]]
+        icon = "fa-link"
+        title = "Blockchain"
+        description = "Litecoinのblockchainは、対称のBitcoinより多くのトランザクションを取り扱うことができます。より頻繁にブロックが生成されるため、ソフトウェアを将来的に改良する必要なく、ネットワークを多くのトランザクションに対応させることができます。 <br />その結果、売り手側も素早く認証を得ることができます。同時に金額の大きな商品を販売するときは、多くの認証を待つ事もできます。"
+
+      [[Languages.ja.about.row.list]]
+        icon = "fa-lock"
+        title = "ウォレットの暗号化"
+        description = "ウォレットの暗号化によって、ウォレットのプライベートキーの安全性を確保し、取引やアカウント残高を確認することができます。Litecoinを使用する前にはパスワードの入力が必要となります。 <br />この認証によって、ウイルスやスパムから保護できるだけでなく、支払い実行前に安全性を確認することができます。"
+
+      [[Languages.ja.about.row.list]]
+        icon = "fa-money"
+        title = "リワード"
+        description = "採掘者は1ブロック発掘するごとに25コインが与えられます。この数は約4年ごとに半減していきます。(840,000ブロックごと) <br />したがって、Litecoinネットワークでは、Bitcoinのおおよそ4倍の量の通貨、約8400万枚のLitecoinが生成される事になります。"
+
+  # download section
+  [Languages.ja.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "ダウンロード"
+    source = "ソース"
+    releaseNotes = "更新履歴"
+    upgradeNotes = "アップグレードについてお知らせ"
+
+    windows = "Windows用"
+    mac = "Mac OS X用"
+    linux = "Linux用"
+    android = "Litecoin - Android用"
+    blackberry = "Litecoin - Blackberry用"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.ja.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Litecoin開発チームへのお問い合わせは<a href="mailto:contact@litecoin.org">contact@litecoin.org</a>まで。'
+
+
+  # Footer section
+  [Languages.ja.footer]
+    enable = true
+    copyright = 'Copyright &copy; 2011-2016 Litecoinプロジェクト. All rights reserved.'

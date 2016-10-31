@@ -1,6 +1,7 @@
 # CZECH _____________________________
   [Languages.cs]
     lang = "Česky"
+    LanguageCode = "cs"
     title = "Litecoin - Open source P2P digitální měna"
     weight = 1
 

@@ -4,7 +4,7 @@
   "description": "hugo server --buildDrafts -w",
   "main": "index.js",
   "scripts": {
-    "start": "gulp sass && gulp sass:watch",
+    "start": "gulp config && gulp sass && gulp sass:watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

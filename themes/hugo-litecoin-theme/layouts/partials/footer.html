@@ -2,23 +2,17 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-12 ">
         <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+      <div class="col-md-12">
+        <ul class="list-inline social-buttons ">
           {{ range .Site.Params.footerCommon.social }}
-            <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
+            <li class=""><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
         </ul>
       </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          {{ range .Site.Params.footer.quicklinks }}
-            <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
+
     </div>
   </div>
 </footer>

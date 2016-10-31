@@ -35,6 +35,7 @@ function detectDownloadBtnOS() {
     $("#heroDownload i").addClass('fa-' + icon);
     $("#heroDownload .if-os-" + os).addClass('os-' + os);
     $("#heroDownload .detect").html($("#heroDownload .detect").attr('data-' + os));
+    $("#heroDownload").attr('href', $("#heroDownload .detect").attr('data-dl-' + os));
   }
   console.log($.browser.platform);
   switch ($.browser.platform) {

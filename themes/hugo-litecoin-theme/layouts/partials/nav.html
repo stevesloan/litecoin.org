@@ -11,12 +11,9 @@
       </button>
       <a class="navbar-brand page-scroll " href="#page-top"><img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
     </div>
-    {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
-
-
 
     <div class="collapse navbar-collapse relative" id="bs-example-navbar-collapse-1">
-
+      {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
       {{ if .IsTranslated }}
 
       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
@@ -60,7 +57,7 @@
           </li>
         {{ end }}
 
-        
+
 
         {{ range .Site.Menus.postpend }}
           <li>
@@ -78,16 +75,3 @@
 
 
 </nav>
-
-<!-- <ul id="dropdown1" class="dropdown-content">
- {{ $perma := .Permalink }}
- {{ with .Params.alternatelocales }}
- {{ range . }}
- {{ $thelocale := . }}
- {{ $currenturl := ( index $.Site.Data.translations $.Site.Params.locale ).languageurl }}
- {{ $targeturl := ( index $.Site.Data.translations $thelocale ).languageurl }}
- {{ $langurl := replace $perma $currenturl $targeturl }}
-  <li><a href="{{ $langurl }}">{{ ( index $.Site.Data.translations $thelocale ).languagename }}</a></li>
- {{ end }}
- {{ end }}
-</ul> -->

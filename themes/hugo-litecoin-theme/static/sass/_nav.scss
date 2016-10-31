@@ -83,7 +83,12 @@ color:$f-nav;
   .navbar-brand:focus,
   .navbar-brand:active,
   .navbar-brand.active {
-    color: $f-nav-clear;
+    color: $f-nav;
+    @media(min-width:768px) {
+      &.navbar-shrink {
+        color:$f-nav;
+      }
+    }
   }
 
   .navbar-collapse {

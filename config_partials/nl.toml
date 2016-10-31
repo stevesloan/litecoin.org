@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.nl]
+    lang = "Nederlands"
+    LanguageCode = "nl"
+    title = "Litecoin - Open source P2P digitale valuta"
+    weight = 1
+
+  # Hero section
+  [Languages.nl.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.nl.navigation]
+    brand = "litecoin"
+    download = "Download"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.nl.about]
+    enable = true
+    title = "Wat is Litecoin?"
+    subtitle = "Litecoin is een peer-to-peer Internet valuta dat onmiddellijke, bijna kosteloze betalingen toelaat naar eender wie in de wereld. Litecoin is een open source, globaal betalingsnetwerk dat volledig gedecentraliseerd is zonder enige centrale autoriteiten. Mathematica beveiligd het netwerk en laat individuen toe hun eigen financiën te controleren. Litecoin beschikt over snellere transactie bevestigingen dan de leidende op mathematica-gebaseerde valuta. Met aanzienlijke steun van het bedrijfsleven, handelsvolume en liquiditeit, is Litecoin een bewezen handelsmedium aanvullend op Bitcoin."
+
+    [[Languages.nl.about.row]]
+      [[Languages.nl.about.row.list]]
+        icon = "fa-group"
+        title = "Gemeenschap"
+        description =  '<p class="text-no-margin text-left text-muted">Vind ondersteuning binnen een groeiend aantal Litecoin communty’s </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org/">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Zoek naar gebruikers op Twitter</a><a></a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode network channels</a> <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (voor algemene gebruikers) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (voor ontwikkelaars).</li> </ul>'
+
+      [[Languages.nl.about.row.list]]
+        icon = "fa-laptop"
+        title = "Hulpmiddelen"
+        description = 'Vind algemene informatie zowel als een lijst van diensten en beurzen op de <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date netwerkstatistieken kunnen gevonden worden op: <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Broncode voor Litecoin Core en aanverwante projecten is te vinden op <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.nl.about.row.list]]
+        icon = "fa-heart"
+        title = "Open Source Software"
+        description = "Litecoin is Open Source software uitgebracht onder de MIT/X11 licentie die je toestaat de software te draaien, aan te passen, te kopiëren en aangepaste kopieën van de software te verspreiden. De software is uitgebracht middels een transparant proces dat onafhankelijke verificatie van binaire bestanden en hun bijbehorende broncode toelaat."
+
+    [[Languages.nl.about.row]]
+      [[Languages.nl.about.row.list]]
+        icon = "fa-link"
+        title = "Blokketen"
+        description = "De Litecoin blokketen heeft de mogelijkheid een hoger volume aan transacties te ondersteunen dan zijn tegenhanger – Bitcoin. Door een frequentere aanmaak van blokken, kan het netwerk meer transacties verdragen zonder de noodzaak om de software in de toekomst aan te passen. <br />Hierdoor krijgen handelaars snellere bevestigingstijden, hoewel ze nog altijd de mogelijkheid hebben om op meer bevestigingen te wachten bij het verkopen van dure producten."
+
+      [[Languages.nl.about.row.list]]
+        icon = "fa-lock"
+        title = "Portemonnee Versleuteling"
+        description = "Versleuteling van de portemonnee geeft je de mogelijkheid je portemonnee te beveiligen, zodat je transacties en rekeningsaldo altijd kunt bekijken, maar een wachtwoord nodig hebt voor je litecoins kunt uitgeven. <br />Dit biedt bescherming tegen portemonnee-stelende virussen en trojans en geldt tevens als een extra verificatie bij het versturen van betalingen."
+
+      [[Languages.nl.about.row.list]]
+        icon = "fa-money"
+        title = "Mining Beloning"
+        description = "Miners worden momenteel beloond met 25 nieuwe litecoins per blok, een bedrag dat ruwweg om de vier jaar gehalveerd wordt (elke 840.000 blokken). <br />Het is hierdoor vastgesteld dat het Litecoin netwerk 84 miljoen litecoins zal produceren, wat vier keer zoveel valuta eenheden als Bitcoin is."
+
+  # download section
+  [Languages.nl.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "Download"
+    source = "BRONCODE"
+    releaseNotes = "Release Notes"
+    upgradeNotes = "Upgrade Notes"
+
+    windows = "voor Windows"
+    mac = "voor Mac OS X"
+    linux = "voor Linux"
+    android = "Litecoin voor Android"
+    blackberry = "Litecoin voor Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.nl.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Je kunt het Litecoin projectontwikkelingsteam bereiken op <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>.'
+
+  # Footer section
+  [Languages.nl.footer]
+    enable = true
+    copyright = 'Copyright &copy; 2011-2016 Litecoin Project. Alle rechten voorbehouden.'

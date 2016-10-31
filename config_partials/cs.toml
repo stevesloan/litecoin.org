@@ -1,0 +1,92 @@
+# CZECH _____________________________
+  [Languages.cs]
+    lang = "Česky"
+    title = "Litecoin - Open source P2P digitální měna"
+    weight = 1
+
+  # Hero section
+  [Languages.cs.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.cs.navigation]
+    brand = "litecoin"
+    download = "STÁHNOUT"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.cs.about]
+    enable = true
+    title = "Co je to Litecoin?"
+    subtitle = "Litecoin je peer-to-peer internetová měna, která poskytuje okamžité platby komukoliv na světě za téměř nulovou cenu. Litecoin je open source globální platební síť, která je plně decentralizovaná a bez jakýchkoli centrálních autorit. Matematika zabezpečuje síť a umožňuje jednotlivcům kontrolovat své vlastní finance. Litecoin poskytuje rychlejší potvrzení transakcí a vylepšuje efektivitu ukládání oproti vedoucí internetové měně. Se značnou podporou průmyslu, objemu obchodu a likvidity, je Litecoin osvědčený obchodní prostředek, který doplňuje Bitcoin."
+
+    [[Languages.cs.about.row]]
+      [[Languages.cs.about.row.list]]
+        icon = "fa-group"
+        title = "Komunita"
+        description =  '<p class="text-no-margin text-left text-muted">Najdete podporu napříč vzrůstajícím počtem Litecoin komunit: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Fóra</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Vyhledávání pro uživatele Twitteru</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> kanály <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (pro uživatele) a <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (pro vývojáře).</li> </ul>'
+
+      [[Languages.cs.about.row.list]]
+        icon = "fa-laptop"
+        title = "Zdroje"
+        description = 'Základní informace stejně jako seznam služeb a směnáren, které podporují Litecoin můžete najít na <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Aktuální statistiky sítě jsou na stránce <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Zdrojový kód pro Litecoin Core a odvozené projekty je dostupný na <a href="https://github.com/litecoin-project">GitHubu</a>.'
+
+      [[Languages.cs.about.row.list]]
+        icon = "fa-heart"
+        title = "Open Source Software"
+        description = "Litecoin je open source softwarový projekt uvolněný pod licencí MIT/X11, která vám dává možnost provozovat, upravovat, kopírovat podle vlastního uvážení a distribuovat takto upravené kopie softwaru. Software je uvolňován transparentním procesem, který umožňuje nezávislé ověřování binárních souborů a jejich zdrojového kódu."
+
+    [[Languages.cs.about.row]]
+      [[Languages.cs.about.row.list]]
+        icon = "fa-link"
+        title = "Blockchain"
+        description = "Litecoin blockchain je schopna zvládnout větší objem transakcí než jeho protějšek - Bitcoin. Vzhledem k častějšímu generování bloku, podporuje síť více transakcí, aniž by bylo nutné dělat v budoucnu změny v aplikaci. <br />V důsledku čehož poskytuje při obchodování rychlejší potvrzení, při zachování schopnosti čekat na více potvrzení při prodeji za větší částky."
+
+      [[Languages.cs.about.row.list]]
+        icon = "fa-lock"
+        title = "Zakódování peněženky"
+        description = "Šifrování peněženky umožňuje zabezpečit vaši peněženku tak, že si můžete prohlédnout transakce a zůstatek na účtu, ale při převodu litecoins jste vyzváni k zadání hesla. <br />To zajišťuje ochranu peněženky před vykradením pomocí virů a trojských koní, jakož i obecnou kontrolu před odesláním platby."
+
+      [[Languages.cs.about.row.list]]
+        icon = "fa-money"
+        title = "Odměna za těžení"
+        description = "Těžiči jsou aktuálně odměňováni 25 novými litecointy za blok, množstvím které se zmenšuje každé 4 roky(každých 840.000 bloků ) na polovinu. <br />Litecoin síť je navržena na konečnou produkci 84 milionů litecointů, což je čtyřikrát více než bude Bitcointů."
+
+  # download section
+  [Languages.cs.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "STÁHNOUT"
+    source = "Source"
+    releaseNotes = "Poznámky k vydání"
+    upgradeNotes = "Poznámky k aktualizaci"
+
+    windows = "pro Windows"
+    mac = "pro Mac OS X"
+    linux = "pro GNU/Linux"
+    android = "Litecoin pro Android"
+    blackberry = "Litecoin pro Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.cs.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Můžeš kontaktovat vývojářský tým projektu Litecoin na <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>"
+
+
+  # Footer section
+  [Languages.cs.footer]
+    enable = true
+    copyright = "Copyright &copy; 2011-2016 Litecoin Project. Všechna práva vyhrazena."

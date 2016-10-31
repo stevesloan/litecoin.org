@@ -1,0 +1,92 @@
+# SPANISH _____________________________
+  [Languages.es]
+    lang = "Español"
+    LanguageCode = "es"
+    title = "Litecoin - La moneda electrónica"
+    weight = 1
+
+  # Hero section
+  [Languages.es.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.es.navigation]
+    brand = "litecoin"
+    download = "DESCARGAR"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.es.about]
+    enable = true
+    title = "¿Qué es Litecoin?"
+    subtitle = "Litecoin es una moneda de Internet de tipo punto a punto que permite realizar pagos instantáneos y de costo casi cero a cualquier parte del mundo. Litecoin es una red de pagos global y de código abierto que es completamente descentralizada y sin autoridades centrales. Las matemáticas aseguran la red y permiten que individuos controlen sus propias finanzas. Litecoin provee tiempos de confirmación de transacción más rápidos y eficiencia de almacenamiento mejorada por sobre la principal moneda basada en matemática. Con soporte sustancial de la industria, volumen de transacciones y liquidez, Litecoin es un medio de comercio comprobado complementario a Bitcoin."
+
+    [[Languages.es.about.row]]
+      [[Languages.es.about.row.list]]
+        icon = "fa-group"
+        title = "Comunidad"
+        description =  '<p class="text-no-margin text-left text-muted">Existe una cantidad creciente de comunidades Litecoin donde es posible encontrar soporte. Usted puede hacerlo visitando: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Foros Litecoin</a></li> <li><a href="http://www.reddit.com/r/litecoin">Comunidad Reddit de Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Búsqueda de Usuarios en Twitter</a></li> <li>Regístrese en los canales de la red <a href="http://freenode.net/" rel="nofollow">IRC FreeNode:</a> <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (para los usuarios en general) y <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (para desarrolladores).</li> </ul>'
+
+      [[Languages.es.about.row.list]]
+        icon = "fa-laptop"
+        title = "Recursos"
+        description = 'Usted puede acceder a información general, lista de páginas y lista de intercambios respaldados por Litecoin en: <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Las estadísticas actualizadas de la red pueden encontrarse en: <a href="http://ltc.block-explorer.com/charts">Gráficos de Exploradores de Bloques Litecoin</a>. <br> Los códigos fuente y otros proyectos relacionados se encuentran disponibles en: <a href="https://github.com/litecoin-project">GitHub.com/litecoin-project</a>.'
+
+      [[Languages.es.about.row.list]]
+        icon = "fa-heart"
+        title = "Software Libre"
+        description = "Litecoin es un proyecto de software libre publicado bajo la licencia MIT/X11 que otorga la posibilidad de ejecutar, modificar, copiar, y distribuir el software, a discreción, en copias modificadas del mismo. El software es lanzado en un proceso transparente que permite la verificación independiente de binarios y su correspondiente código fuente."
+
+    [[Languages.es.about.row]]
+      [[Languages.es.about.row.list]]
+        icon = "fa-link"
+        title = "Cadena de Bloques"
+        description = "La cadena de bloques de Litecoin es capaz de administrar un mayor volumen de transacciones que su homólogo - Bitcoin. Debido a que la generación de bloques se realiza de manera más frecuente, la red sustenta más transacciones sin la necesidad de modificar el software en el futuro. <br />Como resultado, los comerciantes obtienen confirmaciones de manera más rápida, y al mismo tiempo tienen la posibilidad de esperar más confirmaciones al vender artículos más costosos."
+
+      [[Languages.es.about.row.list]]
+        icon = "fa-lock"
+        title = "Cifrado de la Cartera Electrónica"
+        description = "El cifrado de la cartera electrónica permite asegurar las claves privadas en la cartera, para que usted pueda ver las transacciones y su saldo de cuenta, pero se solicita el ingreso de contraseña antes de utilizar sus litecoins. <br />Esto es útil no solo como protección ante los virus y troyanos, sino también como una comprobación de seguridad antes de enviar un pago."
+
+      [[Languages.es.about.row.list]]
+        icon = "fa-money"
+        title = "Recompensa"
+        description = "Los mineros inicialmente pueden generar 25 monedas por bloque. La cantidad de monedas generadas se ve reducida a la mitad cada 4 años (840,000 bloques). <br />Por lo tanto, la red Litecoin está programada para producir aproximadamente 4 veces más unidades monetarias que Bitcoin, o cerca de 84 millones de litecoins."
+
+  # download section
+  [Languages.es.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "DESCARGAR"
+    source = "Código Fuente"
+    releaseNotes = "Notas de la versión"
+    upgradeNotes = "Notas de actualización"
+
+    windows = "para Windows"
+    mac = "para Mac OS X"
+    linux = "para Linux"
+    android = "Litecoin para Android"
+    blackberry = "Litecoin para Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.es.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Usted puede contactarse con el equipo de desarrollo Litecoin en: <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>."
+
+  # Footer section
+  [Languages.es.footer]
+    enable = true
+    copyright = "Copyright &copy; 2011-2016 Litecoin Project. Todos los derechos reservados."

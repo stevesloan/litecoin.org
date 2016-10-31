@@ -1,0 +1,48 @@
+# Site settings
+baseurl = "https://stevesloan.github.io"
+
+
+theme = "hugo-litecoin-theme"
+googleAnalytics = ""
+ignoreFiles = [ "\\.scss$", "\\.sass$" ]
+
+# Link custom assets relative to /static
+custom_css = []
+custom_js  = []
+
+# Possibility to disable external/additional fonts
+# Exception: Fontawesome
+disableFonts = false
+
+
+[Taxonomies]
+tag = "tags"
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[params]
+description = "Litecoin is a cryptocurrency that enables instant payments to anyone in the world and that can be efficiently mined with consumer-grade hardware."
+
+  [params.downloadCommon]
+    releaseNotesURL = "http://blog.litecoin.org/2015/12/litecoin-core-v01040.html"
+    upgradeNotesURL = "https://litecoin.info/Upgrading_Litecoin"
+
+  [params.footerCommon]
+    [[params.footerCommon.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/LitecoinProject"
+
+    [[params.footerCommon.social]]
+      icon = "fa-comments"
+      link = "https://web.telegram.org/#/im?p=@Litecoin"
+
+    [[params.footerCommon.social]]
+      icon = "fa-reddit-alien"
+      link = "https://www.reddit.com/r/litecoin/"
+
+
+
+
+[Languages]

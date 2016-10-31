@@ -83,7 +83,7 @@
   # Contact section
   [Languages.et.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = "Litecoin projekti liikmetega kontakteerumiseks kasuta <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>"
 
   # Footer section

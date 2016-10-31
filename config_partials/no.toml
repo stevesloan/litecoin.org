@@ -1,4 +1,4 @@
-# ENGLISH _____________________________
+# Norsk _____________________________
   [Languages.no]
     lang = "Norsk"
     LanguageCode = "no"
@@ -7,8 +7,8 @@
 
   # Hero section
   [Languages.no.hero]
-    title = "Global Decentralized Currency"
-    subtitle = "Based on Blockchain Technology"
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
 
   # Navigation
   [Languages.no.navigation]
@@ -83,7 +83,7 @@
   # Contact section
   [Languages.no.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Do kan kontakte Litecoins prosjektutviklingslag på <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
 
   # Footer section

@@ -1,4 +1,4 @@
-# ENGLISH _____________________________
+# RUSSIAN _____________________________
   [Languages.ru]
     lang = "Русский"
     LanguageCode = "ru"
@@ -83,7 +83,7 @@
   # Contact section
   [Languages.ru.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Вы можете связаться с разработчиками проекта Litecoin по электронной почте: <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>.'
 
   # Footer section

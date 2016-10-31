@@ -83,7 +83,7 @@
   # Contact section
   [Languages.el.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = "Μπορείτε να επικοινωνήσετε με την ομάδα ανάπτυξης του Litecoin στο <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>."
 
 

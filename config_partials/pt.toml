@@ -1,4 +1,4 @@
-# ENGLISH _____________________________
+# Português _____________________________
   [Languages.pt]
     lang = "Português"
     LanguageCode = "pt"
@@ -83,7 +83,7 @@
   # Contact section
   [Languages.pt.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Você pode entrar em contato com a equipe de desenvolvimento da Litecoin em: <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>.'
 
   # Footer section

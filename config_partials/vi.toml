@@ -83,7 +83,7 @@
   # Contact section
   [Languages.vi.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Bạn có thể liện hệ với nhóm phát triển dự án Litecoin tại địa chỉ <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
 
   # Footer section

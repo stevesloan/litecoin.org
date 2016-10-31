@@ -1,4 +1,4 @@
-# ENGLISH _____________________________
+# Nederlands _____________________________
   [Languages.nl]
     lang = "Nederlands"
     LanguageCode = "nl"
@@ -83,7 +83,7 @@
   # Contact section
   [Languages.nl.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Je kunt het Litecoin projectontwikkelingsteam bereiken op <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>.'
 
   # Footer section

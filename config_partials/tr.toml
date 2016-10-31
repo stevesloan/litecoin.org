@@ -87,7 +87,7 @@
   # Contact section
   [Languages.tr.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Litecoin projesi geliştirme ekibine <a href="mailto:contact@litecoin.org">contact@litecoin.org</a> adresinden ulaşabilirsiniz.'
 
   # Footer section

@@ -285,8 +285,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: transparent;
     -webkit-transition: padding .3s;
     transition: padding .3s;
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), transparent);
-    background: linear-gradient(top, rgba(0, 0, 0, 0.2), transparent); }
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent); }
     .navbar-default .navbar-brand .navbar-logo {
       -webkit-filter: brightness(150%);
               filter: brightness(150%);

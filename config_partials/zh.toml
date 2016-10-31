@@ -83,7 +83,7 @@
   # Contact section
   [Languages.zh.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = '您可以通過<a href="mailto:contact@litecoin.org">contact@litecoin.org</a>聯繫Litecoin的開發團隊。'
 
   # Footer section

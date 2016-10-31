@@ -83,7 +83,7 @@
   # Contact section
   [Languages.da.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = "Du kan kontakte Litecoins projektudvikling team på <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>"
 
 

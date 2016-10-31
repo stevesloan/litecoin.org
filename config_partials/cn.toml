@@ -10,7 +10,6 @@ title = "莱特币 - 开源的P2P数字货币"
 [Languages.cn.hero]
   # title = "Global Decentralized Currency"
   # subtitle = "Based on Blockchain Technology"
-  button_text = "下载"
 
 # Navigation
 [Languages.cn.navigation]

@@ -83,7 +83,7 @@
   # Contact section
   [Languages.ja.contact]
     enable = true
-    title = "Contact us"
+    # title = "Contact us"
     subtitle  = 'Litecoin開発チームへのお問い合わせは<a href="mailto:contact@litecoin.org">contact@litecoin.org</a>まで。'
 
 

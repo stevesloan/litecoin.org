@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.pl]
+    lang = "Polski"
+    LanguageCode = "pl"
+    title = "Litecoin - cyfrowa waluta P2P o otwartym kodzie źródłowym"
+    weight = 1
+
+  # Hero section
+  [Languages.pl.hero]
+    title = "Global Decentralized Currency"
+    subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.pl.navigation]
+    brand = "litecoin"
+    download = "POBIERZ"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.pl.about]
+    enable = true
+    title = "Czym jest Litecoin?"
+    subtitle = "Litecoin jest internetową walutą peer-to-peer, pozwalającą na natychmiastowe i bardzo tanie przesyłanie pieniędzy na całym świecie. Litecoin jest otwarto-źródłowym, w pełni zdecentralizowanym systemem transakcyjnym bez żadnych administratorów. Matematyka zabezpiecza transakcje i umożliwia użytkownikom kontrolowanie własnych pieniędzy. Litecoin ma krótszy czas potwierdzeń i wyższą efektywność przechowywania transakcji niż wiodąca kryptowaluta. Z wsparciem dla firm, wolumenem wymiany i płynnością, Litecoin jest systemem finansowym komplementarnym do Bitcoina."
+
+    [[Languages.pl.about.row]]
+      [[Languages.pl.about.row.list]]
+        icon = "fa-group"
+        title = "Społeczność"
+        description =  '<p class="text-no-margin text-left text-muted">Szukaj wsparcia w jednej z wielu społeczności Litecoina: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Forum Litecoina</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Szukaj użytkowników na Twitterze</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a>kanały <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a>(ogólny) i <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (dla developerów).</li> </ul>'
+
+      [[Languages.pl.about.row.list]]
+        icon = "fa-laptop"
+        title = "Zasoby"
+        description = 'Informacje ogólne, listę&nbsp;usług oraz giełd, które obsługują i wspierają Litecoina znajdziesz na <a href="http://litecoin.info">Wiki Litecoina </a>. <br>Bieżące statystyki sieci są dostępne na <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br>Kod źródłowy Litecoin Core i powiązanych projektów jest dostępny na <a href="https://github.com/litecoin-project">GitHubie</a>.'
+
+      [[Languages.pl.about.row.list]]
+        icon = "fa-heart"
+        title = "Otwarte oprogramowanie"
+        description = "Litecoin to otwarto-źródłowy program dostępny na licencji MIT/X11, która pozwala na uruchamianie, kopiowanie, modyfikowanie i rozpowszechnianie, w tym zmodyfikowanych wersji. Program jest publikowany w transparentny sposób, który pozwala niezależnie weryfikować pliki wykonywalne i odpowiadający im kod źródłowy."
+
+    [[Languages.pl.about.row]]
+      [[Languages.pl.about.row.list]]
+        icon = "fa-link"
+        title = "Łańcuch bloków"
+        description = "Łańcuch bloków Litecoin jest w stanie obsłużyć większy wolumen transakcji, niż jego odpowiednik - Bitcoin. Ze względu na częstszą generację bloku, sieć jest w stanie obsłużyć większą ilość transakcji bez konieczności modyfikowania oprogramowania w przyszłości. <br />W efekcie handlujący uzyskują szybsze potwierdzenia, przy zachowaniu zdolności do oczekiwania na większą ilość potwierdzeń przy większej sprzedaży."
+
+      [[Languages.pl.about.row.list]]
+        icon = "fa-lock"
+        title = "Szyfrowanie portfela"
+        description = "Szyfrowanie portfela pozwala zabezpieczyć Twój portfel, dzięki czemu widzisz transakcje i stan konta, ale aby wydać litecoiny musisz podać hasło. <br />Chroni to przed wirusami i trojanami kradnącymi portfele jak również jest formą autoryzacji przed wysłaniem płatności."
+
+      [[Languages.pl.about.row.list]]
+        icon = "fa-money"
+        title = "Nagroda za wydobycie"
+        description = "Górnicy są obecnie nagradzani 25 litecoinami za blok, a ilość ta zmniejsza się o połowę co 4 lata (co każde 840.000 bloki). <br />Sieć Litecoina jest zaprojektowana aby wyprodukować 84 miliony litecoinów, co oznacza 4 razy więcej niż bitcoinów."
+
+  # download section
+  [Languages.pl.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "POBIERZ"
+    source = "ŹRÓDŁO"
+    releaseNotes = "Notki o wydaniu"
+    upgradeNotes = "Uwagi o upgrade"
+
+    windows = "dla systemu Windows"
+    mac = "dla systemu Mac OS X"
+    linux = "dla systemu Linux"
+    android = "Litecoin dla Android"
+    blackberry = "Litecoin dla Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.pl.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Możesz skontaktować się&nbsp;z developerami Litecoina przez adres <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+
+  # Footer section
+  [Languages.pl.footer]
+    enable = true
+    copyright = 'Prawa autorskie &copy; 2011-2016 Litecoin Project. Wszelkie prawa zastrzeżone.'

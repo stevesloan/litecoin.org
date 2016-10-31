@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.no]
+    lang = "Norsk"
+    LanguageCode = "no"
+    title = "Litecoin - åpen kildekode P2P digital valuta"
+    weight = 1
+
+  # Hero section
+  [Languages.no.hero]
+    title = "Global Decentralized Currency"
+    subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.no.navigation]
+    brand = "litecoin"
+    download = "Last Ned"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.no.about]
+    enable = true
+    title = "Hva er Litecoin?"
+    subtitle = "Litcoin er en peer-to-peer internettvaluta som muliggjør øyeblikkelig, nær nullkostnadsbetalinger til hvem som helst i verden. Litecoin er et åpen kildekode, globalt betalingsnettverk som er helt desentralisert, uten noen form for sentrale myndigheter. Matematikk beskytter nettverket og styrker enkeltpersoner til å kontrollere sin egen økonomi. Litecoin har raskere transaksjonbekreftelse tider og forbedret lagringseffektivitet enn den ledende mattebaserte valutaen. Med betydelig industristøtte, handelsvolum og likviditet, er Litecoin en bevist medium for handel komplementær til Bitcoin."
+
+    [[Languages.no.about.row]]
+      [[Languages.no.about.row.list]]
+        icon = "fa-group"
+        title = "Samfunn"
+        description =  '<p class="text-no-margin text-left text-muted">Finn støtte på tvers av et voksende antall Litecoin samfunn: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forum</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Søk etter brukere på Twitter</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> nettverk kanaler <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (for vanlige brukere) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (for utviklere).</li> </ul>'
+
+      [[Languages.no.about.row.list]]
+        icon = "fa-laptop"
+        title = "Ressurser"
+        description = 'Finn generell informasjon og en liste av tjenester og børser som støtter Litecoin på <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Oppdatert nettverksstatistikk finner du på <a href="http://ltc.block-explorer.com/charts">Litecoin Blokkutforsker Diagrammer</a>. <br> Kildekode for Litecoin Core og relaterte prosjekter er tilgjenglige på <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.no.about.row.list]]
+        icon = "fa-heart"
+        title = "Åpen Kildekode Programvare"
+        description = "Litecoin er et åpent kildekode programvareprosjekt utgitt under MIT/X11 lisensen som gir deg makten til å kjøre, modifisere og kopiere programvaren og distributere modifiserte utgaver av programvaren. Programvaren er utgitt i en transparent prosess som gjør det mulig for uavhengig verifikasjon av binærfiler og den korresponderende kildekoden."
+
+    [[Languages.no.about.row]]
+      [[Languages.no.about.row.list]]
+        icon = "fa-link"
+        title = "Blokkjede"
+        description = "Litecoin sin blokkjede er kapabel til å utføre et høyere transaksjonsvolum enn for eksempel Bitcoin. På grunn av mer frekvente blokkgenerasjon, støtter nettverket flere transaksjoner uten behov for å modifisere programvare i fremtiden. <br />Som et resultat av dette, får kjøpmenn raskere bekreftelse, mens å fortsatt ha muligheten til å vente på bekreftelser ved salg av større billett gjenstander."
+
+      [[Languages.no.about.row.list]]
+        icon = "fa-lock"
+        title = "Lommebokkryptering"
+        description = "Lommebokkryptering gjør at du kan sikre lommeboken din, slik at du kan se transaksjoner og din kontobalanse, men må skrive inn ett passord før du kan bruke litecoins. <br />Dette gir beskyttelse mot lommeboktyver, som virus og trojanere, samt en ekstra sjekk før du sender betalingen."
+
+      [[Languages.no.about.row.list]]
+        icon = "fa-money"
+        title = "Blokkutvinning Gevinst"
+        description = "Blokkutvinnere er i dag belønnet med 25 nye litecoin per blokk, en sum som blir halvert hvert fjerde år (hver 840,000 blokk). <br />Litecoinnettverket er derfor planlagt å produsere 84 millioner litecoins, som er fire ganger flere valutaenheter enn Bitcoin."
+
+  # download section
+  [Languages.no.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "Last Ned"
+    source = "KILDE"
+    releaseNotes = "Utgivelsesnotater"
+    upgradeNotes = "Oppgraderingsnotater"
+
+    windows = "for Windows"
+    mac = "for Mac OS X"
+    linux = "for Linux"
+    android = "Litecoin for Android"
+    blackberry = "Litecoin for Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.no.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Do kan kontakte Litecoins prosjektutviklingslag på <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+
+  # Footer section
+  [Languages.no.footer]
+    enable = true
+    copyright = 'Opphavsrett &copy; 2011-2016 Litecoin Prosjekt. Alle rettigheter reservert.'

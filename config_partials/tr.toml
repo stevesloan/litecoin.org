@@ -1,0 +1,96 @@
+# ENGLISH _____________________________
+  [Languages.tr]
+    lang = "Türkçe"
+    LanguageCode = "tr"
+    title = "Litecoin - Açık kaynaklı P2P dijital para birimi"
+    weight = 1
+
+  # Hero section
+  [Languages.tr.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.tr.navigation]
+    brand = "litecoin"
+    download = "İNDİR"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.tr.about]
+    enable = true
+    title = "Litecoin nedir?"
+    subtitle = "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Litecoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
+
+    [[Languages.tr.about.row]]
+      [[Languages.tr.about.row.list]]
+        icon = "fa-group"
+        title = "Topluluk"
+        description =  '<p class="text-no-margin text-left text-muted">Sayısı her geçen gün artan Litecoin topluluklarından destek alabilirsiniz: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forum</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Twitter&#39;da ara</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> IRC kanalları <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (normal kullanıcılar için), <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (geliştiriciler için).</li> </ul>'
+
+
+
+      [[Languages.tr.about.row.list]]
+        icon = "fa-laptop"
+        title = "Kaynaklar"
+        description = 'Genel bilgilere, Litecoin&#39;i destekleyen servis ve borsaların listesine <a href="http://litecoin.info">Litecoin Wiki</a>&#39;den ulaşabilirsiniz. <br> Güncel ağ istatistikleri <a href="http://ltc.block-explorer.com/charts">burada</a> yer almaktadır. Litecoin COre ve ilgili projelerin kaynak kodu <a href="https://github.com/litecoin-project">GitHub</a>&#39;da mevcuttur.'
+
+
+
+      [[Languages.tr.about.row.list]]
+        icon = "fa-heart"
+        title = "Özgür ve açık kaynak kodlu yazılım"
+        description = "Litecoin, özgür ve açık kaynak kodlu bir yazılımdır ve yazılımı çalıştırmanıza, değiştirmenize, kopyalamanıza ve dağıtmanıza izin veren MIT/X11 lisansı ile yayınlanmaktadır. Yazılım, çalıştırılabilir dosyaların ve karşılığında kodların bağımsız doğrulanmasına izin veren transparan bir süreç ile yayınlanmaktadır."
+
+    [[Languages.tr.about.row]]
+      [[Languages.tr.about.row.list]]
+        icon = "fa-link"
+        title = "Blockchain"
+        description = "Litecoin blok zinciri, emsali olan Bitcoin'den çok daha yüksek işlem hacimlerini gerçekleştirebilmektedir. Ağ, daha sık blok oluşturabilmesi nedeniyle, gelecekte yazılımda bir değişikliğe ihtiyaç duymaksızın daha çok işlemi destekler. <br />Bunun sonucunda ticari işletmeler, yüksek etiket fiyatına sahip ürünler sattığında daha fazla onay alma imkanına sahip olurken, daha hızlı onay süreleri elde ederler."
+
+      [[Languages.tr.about.row.list]]
+        icon = "fa-lock"
+        title = "Cüzdan Şifreleme"
+        description = "Wallet encryption allows you to secure your wallet, so that you can view transactions and your account balance, but are required to enter your password before spending litecoins. <br />This provides protection from wallet-stealing viruses and trojans as well as a sanity check before sending payments."
+
+      [[Languages.tr.about.row.list]]
+        icon = "fa-money"
+        title = "Madencilik Ödülü"
+        description = "Madenciler mevcut olarak blok başına 25 yeni litecoin ile ödüllendirilmektedir ve bu miktar yaklaşık olarak her 4 yılda (840,000 blok) bir yarılanmaktadır. <br />Litecoin ağı toplamda 84 milyon litecoin üretmek üzere planlanmıştır ve bu Bitcoin'in 4 katıdır."
+
+  # download section
+  [Languages.tr.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "İNDİR"
+    source = "KAYNAK"
+    releaseNotes = "Sürüm Notları"
+    upgradeNotes = "Güncelleme Notları"
+
+    windows = "için Windows"
+    mac = "için Mac OS X"
+    linux = "için Linux"
+    android = "Litecoin için Android"
+    blackberry = "Litecoin için Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.tr.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Litecoin projesi geliştirme ekibine <a href="mailto:contact@litecoin.org">contact@litecoin.org</a> adresinden ulaşabilirsiniz.'
+
+  # Footer section
+  [Languages.tr.footer]
+    enable = true
+    copyright = 'Copyright &copy; 2011-2016 Litecoin Project. Tüm hakları saklıdır.'

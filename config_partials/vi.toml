@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.vi]
+    lang = "Việt"
+    LanguageCode = "vi"
+    title = "Litecoin - Tiền tệ kĩ thuật số dựa trên mã nguồn mở P2P"
+    weight = 1
+
+  # Hero section
+  [Languages.vi.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.vi.navigation]
+    brand = "litecoin"
+    download = "TẢI VỀ"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.vi.about]
+    enable = true
+    title = "Litecoin là gì?"
+    subtitle = "Litecoin là một dạng tiền tệ ngang hàng của mạng Internet cho phép thanh toán tức thời và gần như miễn phí cho bất kỳ ai trên thế giới. Litecoin là một mạng lưới thanh toán toàn cầu dựa trên mã nguồn mở và có tính chất phân tán thuần túy không cần có bất cứ thực thể quản lý trung tâm nào. Mạng lưới được bảo đảm bằng các định luật toán học và giúp từng người kiểm soát được tài chính của chính mình. Nhờ có sự hỗ trợ đáng kể trong ngành công nghiệp, khối lượng giao dịch và tính thanh khoản, Litecoin là một phương tiện trung gian thương mại đã qua thử thách bên cạnh Bitcoin."
+
+    [[Languages.vi.about.row]]
+      [[Languages.vi.about.row.list]]
+        icon = "fa-group"
+        title = "Cộng đồng"
+        description =  '<p class="text-no-margin text-left text-muted">Tìm kiếm hỗ trợ từ cộng đồng sử dụng Litecoins ngày càng nhiều lên tại địa chỉ: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Tìm người dùng trên Twitter</a></li> <li>Kênh <a href="http://freenode.net/" rel="nofollow">IRC trên FreeNode</a> <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (cho người sử dụng) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (cho người phát triển).</li> </ul>'
+
+      [[Languages.vi.about.row.list]]
+        icon = "fa-laptop"
+        title = "Tài nguyên"
+        description = 'Tìm kiếm thông tin chung cũng như danh sách các dịch vụ và sàn giao dịch hỗ trợ Litecoin tại địa chỉ <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Cập nhật số liệu thống kê mạng có thể tìm thấy tại địa chỉ <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Mã nguồn cho Litecoin Core và các dự án liên quan có sẵn tại địa chỉ <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.vi.about.row.list]]
+        icon = "fa-heart"
+        title = "Phần Mêm Mã Nguồn Mở"
+        description = "Litecoin là một dự án phần mềm mã nguồn mở được công bố dưới giấy phép mở MIT/X11 trong đó cho phép bạn có quyền chạy, sửa đổi và sao chép phần mềm đồng thời phân phối bản sửa đổi tùy theo ý muốn. Phần mềm này có một quá trình xuất bản minh bạch qua đó cho phép việc kiểm tra một cách độc lập các tập tin chạy và mã nguồn tương ứng."
+
+    [[Languages.vi.about.row]]
+      [[Languages.vi.about.row.list]]
+        icon = "fa-link"
+        title = "Blockchain"
+        description = "So với đồng Bitcoin, Litecoin Blockchain có khả năng xử lý khối lượng giao dịch tối đa cao hơn, do mạng lưới tạo ra block thường xuyên hơn cho phép một số lượng lớn các giao dịch mà không cần phải sửa đổi phần mềm trong tương lai. <br />Kết quả là người dùng có được thời gian xác nhận giao dịch nhanh hơn, trong khi vẫn có khả năng chờ đợi nhiều xác nhận khi thực hiện một giao dịch lớn."
+
+      [[Languages.vi.about.row.list]]
+        icon = "fa-lock"
+        title = "Mã hóa ví tiền"
+        description = "Mã hóa ví tiền giúp bạn bảo vệ túi tiền của bạn một cách an toàn nhất. Bạn có thể xem các giao dịch và số dư tài khoản của bạn, nhưng sẽ được yêu cầu nhập mật mã riêng của bạn trước khi tiêu litecoin.<br />Điều này bảo vệ dành bạn khỏi virus hay trojan ăn cắp tiền cũng như kiểm tra sự tỉnh táo của bạn trước khi thanh toán"
+
+      [[Languages.vi.about.row.list]]
+        icon = "fa-money"
+        title = "Phần thưởng"
+        description = "Thợ mỏ sẽ được nhận 25 Litecoin đối với mỗi khối (block), con số nhận được này sẽ giảm một nửa sau 4 năm ( mỗi 840.000 block). <br />Do đó mạng lưới Litecoin dự kiến sẽ sản xuất là 84 triệu đồng Litecoin, gấp 4 lần so với số đơn vị tiền tệ Bitcoin."
+
+  # download section
+  [Languages.vi.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "TẢI VỀ"
+    source = "MÃ NGUỒN"
+    releaseNotes = "Ghi chú phát hành"
+    upgradeNotes = "Ghi chú cập nhật"
+
+    windows = "dành cho Windows"
+    mac = "dành cho Mac OS X"
+    linux = "dành cho Linux"
+    android = "Litecoin cho Android"
+    blackberry = "Litecoin cho Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.vi.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Bạn có thể liện hệ với nhóm phát triển dự án Litecoin tại địa chỉ <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+
+  # Footer section
+  [Languages.vi.footer]
+    enable = true
+    copyright = 'Copyright &copy; 2011-2016 Litecoin Project. All rights reserved.'

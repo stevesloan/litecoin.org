@@ -1,0 +1,93 @@
+# ENGLISH _____________________________
+  [Languages.sl]
+    lang = "Slovene"
+    LanguageCode = "sl"
+    title = "Litecoin - Odprto kodna P2P digitalna valuta"
+    weight = 1
+
+  # Hero section
+  [Languages.sl.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.sl.navigation]
+    brand = "litecoin"
+    download = "PRENOS"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.sl.about]
+    enable = true
+    title = "Kaj je Litecoin?"
+    subtitle = "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Litecoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
+
+    [[Languages.sl.about.row]]
+      [[Languages.sl.about.row.list]]
+        icon = "fa-group"
+        title = "Skupnost"
+        description =  '<p class="text-no-margin text-left text-muted">Poišči podporo med naraščajočimi Litecoin skupnostmi: </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin Forumi</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Poišči uporabnike na Twitterju</a></li> <li><a href="http://freenode.net/" rel="nofollow">Kanali omrežja IRC FreeNode</a> <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (za splošne uporanike) and <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (za razvijalce).</li> </ul>'
+
+      [[Languages.sl.about.row.list]]
+        icon = "fa-laptop"
+        title = "Viri"
+        description = 'Poišči splošne informacije kot tudi vse servise in menjalnice, ki podpirajo Litecoin na <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Najnovejše statistike omrežja so dostopne na <a href="http://ltc.block-explorer.com/charts">Litecoin Block Explorer Charts</a>. <br> Izvorna koda za Litecoin Core in sorodni projekti so dostopni na <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.sl.about.row.list]]
+        icon = "fa-heart"
+        title = "Odprto kodni program"
+        description = "Litecoin je odprto kodni projekt izdan pod MIT/X11 licenco, katera ti omogoča zagon, modificiranje in kopiranje programa ter distribucijo lastnih modificiranih kopij programa. Program je izdan transparentno ter omogoča neodvisno preverjanje binarnih zapisov in izvorne kode."
+
+    [[Languages.sl.about.row]]
+      [[Languages.sl.about.row.list]]
+        icon = "fa-link"
+        title = "Veriga blokov"
+        description = "The Litecoin blockchain is capable of handling higher transaction volume than its counterpart - Bitcoin. Due to more frequent block generation, the network supports more transactions without a need to modify the software in the future. <br />As a result, merchants get faster confirmation times, while still having ability to wait for more confirmations when selling bigger ticket items."
+
+      [[Languages.sl.about.row.list]]
+        icon = "fa-lock"
+        title = "Enkripcija denarnice"
+        description = "Enkripcija denarnice ti omogoča, da zavaruješ svojo denarnico, kjer lahko vidiš vse transakcije ter stanje na računu denarnice, zahteva pa vnos gesla preden lahko Litecoine uporabljaš.<br />To je zaščita pred virusi in trojanci, ki omogočajo krajo denarnice, kot tudi dodatno preverjanje preden se izvrši samo plačilo."
+
+      [[Languages.sl.about.row.list]]
+        icon = "fa-money"
+        title = "Nagrada za rudarjenje"
+        description = "Rudarji dobijo trenutno 25 novih litecoinov za vsak blok, znesek, ki se razpolovi približno vsake 4 leta (vsakih 840.000 blokov). <br />Litecoin omrežje bo torej proizvedlo 84 milijonov litecoinov, kar je 4 krat toliko, kolikor bo proizvedeno Bitcoinov."
+
+  # download section
+  [Languages.sl.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "PRENOS"
+    source = "VIR"
+    releaseNotes = "Opombe ob izdaji"
+    upgradeNotes = "Opombe o nadgradnji"
+
+    windows = "za Windows"
+    mac = "za Mac OS X"
+    linux = "za Linux"
+    android = "Litecoin za Android"
+    blackberry = "Litecoin za Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.sl.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = 'Razvijalce Litecoin projekta lahko kontaktiraš na <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+
+
+  # Footer section
+  [Languages.sl.footer]
+    enable = true
+    copyright = '	Avtorske pravice &copy; 2011-2016 Litecoin Project. Vse pravice pridržane.'

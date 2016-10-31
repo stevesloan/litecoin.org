@@ -1,0 +1,92 @@
+# ENGLISH _____________________________
+  [Languages.zh]
+    lang = "繁體中文"
+    LanguageCode = "zh-tw"
+    title = "Litecoin - 開源P2P數位貨幣"
+    weight = 1
+
+  # Hero section
+  [Languages.zh.hero]
+    # title = "Global Decentralized Currency"
+    # subtitle = "Based on Blockchain Technology"
+
+  # Navigation
+  [Languages.zh.navigation]
+    brand = "litecoin"
+    download = "下载"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+
+  # About section
+  [Languages.zh.about]
+    enable = true
+    title = "什麼是Litecoin？"
+    subtitle = "Litecoin是一個點對點的網際網路數位貨幣它提供全球每一個人快速且零成本的付款機制。Litecoin是一個開放原始碼的全球支付網路並建構在完整的中心化機制上排除了任何中央機構。由數學確保網路的安全並使得個人完全掌控自身的財務。Litecoin的特點在於更快的傳輸與認證時間，並增進儲存效能領先其他已數學為基礎的數位貨幣。擁有大量的產業支撐，交易量跟流動性，Litecoin已經證明了是Bitcoin的商業交易互補媒介。"
+
+    [[Languages.zh.about.row]]
+      [[Languages.zh.about.row.list]]
+        icon = "fa-group"
+        title = "社群"
+        description =  '<p class="text-no-margin text-left text-muted">您可以從很多日益壯大的Litecoin社群中尋求技術支援，例如： </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.org">Litecoin論壇</a></li> <li><a href="http://www.reddit.com/r/litecoin">Litecoin交易社群</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">搜索Twitter上的用戶</a></li> <li>加入<a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a>網路頻道<a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a>(給一般普通用戶)，<a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a>(給開發者)</li> </ul>'
+
+      [[Languages.zh.about.row.list]]
+        icon = "fa-laptop"
+        title = "資源"
+        description = '查看<a href="http://litecoin.info">Litecoin維基</a>，可以獲取Litecoin的相關資訊，以及查看所有支援Litecoin的網站清單以及交易市場。 <br> 查看<a href="http://ltc.block-explorer.com/charts">Litecoin交易圖表</a>，獲取最新的網上交易資料。 <br> 訪問<a href="https://github.com/litecoin-project">GitHub.com/litecoin-project</a>，獲取Litecoin的原始程式碼及相關項目。'
+
+      [[Languages.zh.about.row.list]]
+        icon = "fa-heart"
+        title = "開放原始碼軟體"
+        description = "Litecoin是一款在MIT/X11許可下發佈的免費軟體專案，，它讓您能夠根據自己的需要對軟體進行運行、修改和複製。如果您願意，您也可以發行軟體的修改版本。該軟體以完全透明的形式發佈，使用者可以對二進位版本以及對應原始程式碼進行獨立驗證。"
+
+    [[Languages.zh.about.row]]
+      [[Languages.zh.about.row.list]]
+        icon = "fa-link"
+        title = "區塊鏈結"
+        description = "相較於競爭對手Bitcoin，Litecoin能夠處理更大的交易量。由於資料塊的生成更加頻繁，該網路可以支援更多的交易，並且無需在將來修改軟體。 <br />因此，商家可以獲得更快的交易確認，而且在銷售大額商品時依然能夠等待更多的交易確認。"
+
+      [[Languages.zh.about.row.list]]
+        icon = "fa-lock"
+        title = "錢包加密"
+        description = "錢包加密能夠保證您錢包中私密金鑰的安全，從而讓您可以查看交易情況及帳戶餘額，但是您在使用litecoin之前必須輸入密碼。 <br />該功能不僅能夠防止病毒及木馬的侵擾，同時還是付款前的一項有效的合法性檢查。"
+
+      [[Languages.zh.about.row.list]]
+        icon = "fa-money"
+        title = "獎勵"
+        description = "“礦工們”起初每資料塊可以產出25個幣。每4年，生產的貨幣量將減少一半(840000個資料塊)。 <br />因此，Litecoin網路生產的貨幣總量將大約是比特幣的4倍，即8400萬個litecoin。"
+
+  # download section
+  [Languages.zh.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "下载"
+    source = "原始碼"
+    releaseNotes = "發行說明"
+    upgradeNotes = "升級說明"
+
+    windows = "供Windows使用"
+    mac = "供Mac OS X使用"
+    linux = "供GNU/Linux使用"
+    android = "Litecoin版本的Android"
+    blackberry = "Litecoin版本的Blackberry"
+    electrum = "Electrum Litecoin"
+
+
+  # Contact section
+  [Languages.zh.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = '您可以通過<a href="mailto:contact@litecoin.org">contact@litecoin.org</a>聯繫Litecoin的開發團隊。'
+
+  # Footer section
+  [Languages.zh.footer]
+    enable = true
+    copyright = '&copy; 2011-2016 Litecoin Project 版權所有，保留所有權利。'

@@ -35,7 +35,7 @@ description = "Litecoin is a cryptocurrency that enables instant payments to any
       link = "https://twitter.com/LitecoinProject"
 
     [[params.footerCommon.social]]
-      icon = "fa-comments"
+      icon = "fa-send"
       link = "https://web.telegram.org/#/im?p=@Litecoin"
 
     [[params.footerCommon.social]]

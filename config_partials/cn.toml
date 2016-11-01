@@ -8,21 +8,20 @@ title = "莱特币 - 开源的P2P数字货币"
 
 # Hero section
 [Languages.cn.hero]
-  # title = "Global Decentralized Currency"
-  # subtitle = "Based on Blockchain Technology"
+  title = "全球去中心化数字货币"
+  subtitle = "基于区块链技术"
 
 # Navigation
 [Languages.cn.navigation]
   brand = "litecoin"
   download = "下载"
-  about = "About"
-  team = "Team"
-  contact = "Contact"
+  about = "关于"
+  contact = "联系我们"
 
   # postpended links
-  [[menu.postpend]]
+  [[Languages.cn.menu.postpend]]
     url = "https://litecointalk.io/"
-    name = "Forum"
+    name = "论坛"
     weight = 10
 
 
@@ -68,11 +67,11 @@ title = "莱特币 - 开源的P2P数字货币"
 # download section
 [Languages.cn.download]
   enable = true
-  gpg = "GPG Signatures"
+  gpg = "GPG签名"
   download = "下载"
   source = "开源项目"
-  releaseNotes = "#发行说明"
-  upgradeNotes = "升级说明"
+  releasenotes = "#发行说明"
+  upgradenotes = "升级说明"
 
   windows = "供Windows用户使用"
   mac = "供Mac OS X用户使用"
@@ -85,7 +84,7 @@ title = "莱特币 - 开源的P2P数字货币"
 # Contact section
 [Languages.cn.contact]
   enable = true
-  # title = "Contact us"
+  title = "联系我们"
   subtitle  = "您可以通过邮件 <a href='mailto:contact@litecoin.org'>contact@litecoin.org</a>联系莱特币的开发维护团队。"
 
 

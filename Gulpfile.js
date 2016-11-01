@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('sass', function () {
   return gulp.src('./themes/hugo-litecoin-theme/static/sass/**/*.sass')
@@ -11,6 +12,7 @@ gulp.task('sass', function () {
     .pipe(autoprefixer({
         browsers: ['> 5%']
     }))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('./themes/hugo-litecoin-theme/static/css'));
 });
 

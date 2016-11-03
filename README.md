@@ -1,5 +1,9 @@
 # litecoin.org
 
+## Updating Download Urls
+
+data/software
+
 ## Dev environment
 Requires Hugo (gohugo.io) v0.17
 

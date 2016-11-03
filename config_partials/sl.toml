@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "PRENOS"
     source = "VIR"
-    releaseNotes = "Opombe ob izdaji"
-    upgradeNotes = "Opombe o nadgradnji"
+    releasenotes = "Opombe ob izdaji"
+    upgradenotes = "Opombe o nadgradnji"
 
     windows = "za Windows"
     mac = "za Mac OS X"

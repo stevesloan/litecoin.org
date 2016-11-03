@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "下载"
     source = "原始碼"
-    releaseNotes = "發行說明"
-    upgradeNotes = "升級說明"
+    releasenotes = "發行說明"
+    upgradenotes = "升級說明"
 
     windows = "供Windows使用"
     mac = "供Mac OS X使用"

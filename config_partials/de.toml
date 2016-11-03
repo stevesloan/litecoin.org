@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "Download"
     source = "QUELLCODE"
-    releaseNotes = "Versionshinweise"
-    upgradeNotes = "Hinweise zur Aktualisierung"
+    releasenotes = "Versionshinweise"
+    upgradenotes = "Hinweise zur Aktualisierung"
 
     windows = "für Windows"
     mac = "für Mac OS X"

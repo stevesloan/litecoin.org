@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "ΚΑΤΕΒΑΣΤΕ"
     source = "Source"
-    releaseNotes = "Release Notes"
-    upgradeNotes = "Upgrade Notes"
+    releasenotes = "Release Notes"
+    upgradenotes = "Upgrade Notes"
 
     windows = "για Windows"
     mac = "για Mac OS X"

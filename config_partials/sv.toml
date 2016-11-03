@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "LADDA NER"
     source = "KÄLLA"
-    releaseNotes = "Släppnotiser"
-    upgradeNotes = "Uppgraderingsnotiser"
+    releasenotes = "Släppnotiser"
+    upgradenotes = "Uppgraderingsnotiser"
 
     windows = "för Windows"
     mac = "för Mac OS X"

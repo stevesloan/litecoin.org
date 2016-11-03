@@ -23,7 +23,7 @@ gulp.task('config', function() {
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch(['./themes/hugo-litecoin-theme/static/sass/**/*.sass',
-              './themes/hugo-litecoin-theme/static/sass/**/*.scss'], ['sass']);
-  gulp.watch('./config_partials/**/*.toml', ['config']);
+  gulp.watch(['./themes/hugo-litecoin-theme/static/sass/*.sass',
+              './themes/hugo-litecoin-theme/static/sass/*.scss'], ['sass']);
+  gulp.watch('./config_partials/*.toml', ['config']);
 });

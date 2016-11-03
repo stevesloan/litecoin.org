@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "Lataa"
     source = "LÄHDEKOODI"
-    releaseNotes = "Julkaisutiedot"
-    upgradeNotes = "Päivitystiedot"
+    releasenotes = "Julkaisutiedot"
+    upgradenotes = "Päivitystiedot"
 
     windows = "Windows"
     mac = "Mac OS X"

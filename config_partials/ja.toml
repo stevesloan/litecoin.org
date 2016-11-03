@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "ダウンロード"
     source = "ソース"
-    releaseNotes = "更新履歴"
-    upgradeNotes = "アップグレードについてお知らせ"
+    releasenotes = "更新履歴"
+    upgradenotes = "アップグレードについてお知らせ"
 
     windows = "Windows用"
     mac = "Mac OS X用"

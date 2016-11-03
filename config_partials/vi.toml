@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "TẢI VỀ"
     source = "MÃ NGUỒN"
-    releaseNotes = "Ghi chú phát hành"
-    upgradeNotes = "Ghi chú cập nhật"
+    releasenotes = "Ghi chú phát hành"
+    upgradenotes = "Ghi chú cập nhật"
 
     windows = "dành cho Windows"
     mac = "dành cho Mac OS X"

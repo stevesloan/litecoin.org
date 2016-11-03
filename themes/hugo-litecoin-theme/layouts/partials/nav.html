@@ -9,7 +9,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll " href="#page-top"><img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+      <a class="navbar-brand page-scroll " href="#page-top">
+        <img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>
+        <span class="navbar-title">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</span>
+      </a>
     </div>
 
     <div class="collapse navbar-collapse relative" id="bs-example-navbar-collapse-1">

@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "Last Ned"
     source = "KILDE"
-    releaseNotes = "Utgivelsesnotater"
-    upgradeNotes = "Oppgraderingsnotater"
+    releasenotes = "Utgivelsesnotater"
+    upgradenotes = "Oppgraderingsnotater"
 
     windows = "for Windows"
     mac = "for Mac OS X"

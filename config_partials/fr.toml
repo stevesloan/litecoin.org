@@ -75,8 +75,8 @@
   gpg = "GPG Signatures"
   download = "TÉLÉCHARGER"
   source = "Source"
-  releaseNotes = "Notes de Version"
-  upgradeNotes = "Notes de mise à jour"
+  releasenotes = "Notes de Version"
+  upgradenotes = "Notes de mise à jour"
 
   windows = "pour Windows"
   mac = "pour Mac OS X"

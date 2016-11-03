@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "POBIERZ"
     source = "ŹRÓDŁO"
-    releaseNotes = "Notki o wydaniu"
-    upgradeNotes = "Uwagi o upgrade"
+    releasenotes = "Notki o wydaniu"
+    upgradenotes = "Uwagi o upgrade"
 
     windows = "dla systemu Windows"
     mac = "dla systemu Mac OS X"

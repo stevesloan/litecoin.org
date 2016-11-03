@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "Download"
     source = "BRONCODE"
-    releaseNotes = "Release Notes"
-    upgradeNotes = "Upgrade Notes"
+    releasenotes = "Release Notes"
+    upgradenotes = "Upgrade Notes"
 
     windows = "voor Windows"
     mac = "voor Mac OS X"

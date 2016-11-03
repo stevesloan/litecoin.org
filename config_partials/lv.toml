@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "LEJUPIELĀDĒT"
     source = "PIRMKODS"
-    releaseNotes = "Laidiena piezīmes"
-    upgradeNotes = "Atjaunināšanas piezīmes"
+    releasenotes = "Laidiena piezīmes"
+    upgradenotes = "Atjaunināšanas piezīmes"
 
     windows = "Windows"
     mac = "Mac OS X"

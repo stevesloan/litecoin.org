@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "STÁHNOUT"
     source = "Source"
-    releaseNotes = "Poznámky k vydání"
-    upgradeNotes = "Poznámky k aktualizaci"
+    releasenotes = "Poznámky k vydání"
+    upgradenotes = "Poznámky k aktualizaci"
 
     windows = "pro Windows"
     mac = "pro Mac OS X"

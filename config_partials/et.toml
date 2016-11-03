@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "Lae alla"
     source = "LÄHTEKOOD"
-    releaseNotes = "Versiooni kirjeldus"
-    upgradeNotes = "Uuenduse märkmed"
+    releasenotes = "Versiooni kirjeldus"
+    upgradenotes = "Uuenduse märkmed"
 
     windows = "MS Windows"
     mac = "Mac OS X"

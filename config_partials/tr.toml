@@ -73,8 +73,8 @@
     gpg = "GPG Signatures"
     download = "İNDİR"
     source = "KAYNAK"
-    releaseNotes = "Sürüm Notları"
-    upgradeNotes = "Güncelleme Notları"
+    releasenotes = "Sürüm Notları"
+    upgradenotes = "Güncelleme Notları"
 
     windows = "için Windows"
     mac = "için Mac OS X"

@@ -69,8 +69,8 @@
     gpg = "GPG Signatures"
     download = "СКАЧАТЬ"
     source = "ИСХОДНЫЙ КОД"
-    releaseNotes = "Информация о версии"
-    upgradeNotes = "Информация об обновлении"
+    releasenotes = "Информация о версии"
+    upgradenotes = "Информация об обновлении"
 
     windows = "для Windows"
     mac = "для Mac OS X"
